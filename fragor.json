@@ -1,0 +1,2127 @@
+[
+  {
+    "id": "Q001",
+    "topic": "Klövvilt",
+    "question": "Vilket av följande svenska klövvilt är inte idisslare?",
+    "options": [
+      {
+        "text": "Vildsvin",
+        "explanation": "Vildsvin är ett svindjur med enkel magsäck och idisslar inte."
+      },
+      {
+        "text": "Älg",
+        "explanation": "Älgen är ett hjortdjur som idisslar."
+      },
+      {
+        "text": "Dovhjort",
+        "explanation": "Dovhjort hör till hjortdjuren och idisslar."
+      },
+      {
+        "text": "Rådjur",
+        "explanation": "Rådjur idisslar och har en flerdelad mage."
+      }
+    ],
+    "answer": 0,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Klövvilt"
+  },
+  {
+    "id": "Q002",
+    "topic": "Klövvilt",
+    "question": "Vilket hjortdjur brunstar normalt tidigast under året i Sverige?",
+    "options": [
+      {
+        "text": "Kronhjort",
+        "explanation": "Kronhjortens brunst infaller främst under september."
+      },
+      {
+        "text": "Dovhjort",
+        "explanation": "Dovhjortens brunst infaller främst under oktober."
+      },
+      {
+        "text": "Älg",
+        "explanation": "Älgens brunst sker huvudsakligen under september–oktober."
+      },
+      {
+        "text": "Rådjur",
+        "explanation": "Rådjur brunstar i regel under juli–augusti, före de övriga alternativen."
+      }
+    ],
+    "answer": 3,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Klövvilt"
+  },
+  {
+    "id": "Q003",
+    "topic": "Klövvilt",
+    "question": "Vilket påstående om horn hos en mufflonbagge är riktigt?",
+    "options": [
+      {
+        "text": "De består av slidhorn som inte fälls årligen",
+        "explanation": "Mufflonbaggen har permanenta slidhorn som växer under livet."
+      },
+      {
+        "text": "De är täckta av bast som fejas bort varje sensommar",
+        "explanation": "Basthud och fejning hör till hjortdjurens benhorn."
+      },
+      {
+        "text": "De fälls och växer ut på nytt varje vår",
+        "explanation": "Årlig hornfällning kännetecknar hjortdjurens benhorn, inte mufflonfårens slidhorn."
+      },
+      {
+        "text": "De utvecklas bara under brunsten",
+        "explanation": "Mufflonbaggen behåller sina horn även utanför brunsten."
+      }
+    ],
+    "answer": 0,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Klövvilt"
+  },
+  {
+    "id": "Q004",
+    "topic": "Klövvilt",
+    "question": "När fäller råbocken normalt sina horn?",
+    "options": [
+      {
+        "text": "Under högsommar",
+        "explanation": "Under högsommaren bär bocken färdiga horn."
+      },
+      {
+        "text": "Under höst och förvinter",
+        "explanation": "Hornfällning sker normalt under oktober–december."
+      },
+      {
+        "text": "Under tidig vår",
+        "explanation": "På våren har råbocken vanligtvis redan nya horn på tillväxt."
+      },
+      {
+        "text": "I samband med brunsten i augusti",
+        "explanation": "Under brunsten är hornen normalt redan fejade och färdiga."
+      }
+    ],
+    "answer": 1,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Klövvilt"
+  },
+  {
+    "id": "Q005",
+    "topic": "Klövvilt",
+    "question": "Vad är mest typiskt för älgens föda i svenska skogar under vintern?",
+    "options": [
+      {
+        "text": "Främst tallskott, kvistar och bark från vedartade växter",
+        "explanation": "Älgen är en kvistbetare och äter bland annat tallskott och lövträdsgrenar vintertid."
+      },
+      {
+        "text": "Främst marklavar som grävs fram ur snön",
+        "explanation": "Marklavar är viktig vinterföda för renar, inte för älg."
+      },
+      {
+        "text": "Främst vattenväxter på sjöbottnar",
+        "explanation": "Vattenväxter kan ätas under växtsäsongen men är inte normal huvudföda vintertid."
+      },
+      {
+        "text": "Främst insektslarver under bark",
+        "explanation": "Insektslarver utgör ingen viktig vinterföda för älg."
+      }
+    ],
+    "answer": 0,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Klövvilt"
+  },
+  {
+    "id": "Q006",
+    "topic": "Rovdjur",
+    "question": "När föds brunbjörnens ungar normalt i Sverige?",
+    "options": [
+      {
+        "text": "I maj efter att honan lämnat idet",
+        "explanation": "Ungarna föds vanligen innan honan lämnar idet på våren."
+      },
+      {
+        "text": "Under september före idet",
+        "explanation": "Höstfödslar är inte björnens normala reproduktionsmönster."
+      },
+      {
+        "text": "Under januari–februari i idet",
+        "explanation": "Björnhonan föder normalt mycket små ungar mitt under vintern i idet."
+      },
+      {
+        "text": "Under november strax efter att idet påbörjats",
+        "explanation": "November är normalt för tidigt för ungarnas födelse."
+      }
+    ],
+    "answer": 2,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Rovdjur"
+  },
+  {
+    "id": "Q007",
+    "topic": "Rovdjur",
+    "question": "Vilket kännetecken skiljer typiskt ett lodjursspår från ett vargspår?",
+    "options": [
+      {
+        "text": "Lodjuret lämnar alltid ett släpspår av svansen",
+        "explanation": "Lodjurets korta svans ger inte något regelbundet släpspår."
+      },
+      {
+        "text": "Lodjuret lämnar oftast inga tydliga klomärken",
+        "explanation": "Lodjurets indragbara klor lämnar ofta inga tydliga klomärken i vanliga spår."
+      },
+      {
+        "text": "Lodjuret har vanligen fem tydliga tåavtryck",
+        "explanation": "Lodjurets tassavtryck visar normalt fyra tår, inte fem tydliga framåtriktade tåavtryck."
+      },
+      {
+        "text": "Lodjuret har längre och smalare avtryck än vargen",
+        "explanation": "Tassform och storlek varierar; detta är inte ett entydigt typkännetecken."
+      }
+    ],
+    "answer": 1,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Rovdjur"
+  },
+  {
+    "id": "Q008",
+    "topic": "Rovdjur",
+    "question": "Vilket byte är särskilt viktigt för lodjur i stora delar av södra och mellersta Sverige?",
+    "options": [
+      {
+        "text": "Rödräv",
+        "explanation": "Rödräv kan dödas av lodjur, men utgör inte dess viktigaste bytesdjur."
+      },
+      {
+        "text": "Grävling",
+        "explanation": "Grävling kan förekomma som byte men är inte det centrala större bytet."
+      },
+      {
+        "text": "Rådjur",
+        "explanation": "Rådjur är ett viktigt bytesdjur för lodjur i stora delar av Sverige."
+      },
+      {
+        "text": "Bäver",
+        "explanation": "Bäver kan förekomma men är inte det typiska huvudbytet i södra Sverige."
+      }
+    ],
+    "answer": 2,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Rovdjur"
+  },
+  {
+    "id": "Q009",
+    "topic": "Rovdjur",
+    "question": "Vilken av arterna är ett mårddjur?",
+    "options": [
+      {
+        "text": "Varg",
+        "explanation": "Varg hör till hunddjuren."
+      },
+      {
+        "text": "Fjällräv",
+        "explanation": "Fjällräv hör till hunddjuren."
+      },
+      {
+        "text": "Lodjur",
+        "explanation": "Lodjur hör till kattdjuren."
+      },
+      {
+        "text": "Järv",
+        "explanation": "Järv hör till familjen mårddjur."
+      }
+    ],
+    "answer": 3,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Rovdjur"
+  },
+  {
+    "id": "Q010",
+    "topic": "Rovdjur",
+    "question": "Vilket påstående om mårdhunden i Sverige stämmer bäst?",
+    "options": [
+      {
+        "text": "Den är ett inhemskt hunddjur som idisslar",
+        "explanation": "Mårdhunden är inte inhemsk och idisslar inte."
+      },
+      {
+        "text": "Den är en underart av rödräv som byter färg vintertid",
+        "explanation": "Mårdhunden är en egen art, inte en underart av rödräv."
+      },
+      {
+        "text": "Den är ett mårddjur som lever huvudsakligen av fisk",
+        "explanation": "Mårdhunden tillhör hunddjuren och har brett födoval."
+      },
+      {
+        "text": "Den är en främmande hunddjursart som kan ha vintervila",
+        "explanation": "Mårdhunden kommer ursprungligen från östra Asien och kan minska aktiviteten kraftigt under kalla vintrar."
+      }
+    ],
+    "answer": 3,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Rovdjur"
+  },
+  {
+    "id": "Q011",
+    "topic": "Fåglar",
+    "question": "Vilken andart häckar ofta i trädhålor eller uppsatta holkar?",
+    "options": [
+      {
+        "text": "Kricka",
+        "explanation": "Kricka placerar vanligen boet på marken."
+      },
+      {
+        "text": "Knipa",
+        "explanation": "Knipa är en hålhäckande and som gärna använder holkar."
+      },
+      {
+        "text": "Bläsand",
+        "explanation": "Bläsand bygger normalt bo på marken."
+      },
+      {
+        "text": "Gräsand",
+        "explanation": "Gräsand häckar normalt på marken, även om ovanliga boplatser förekommer."
+      }
+    ],
+    "answer": 1,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Fåglar"
+  },
+  {
+    "id": "Q012",
+    "topic": "Fåglar",
+    "question": "Vilken av dessa fåglar tillhör vadarna?",
+    "options": [
+      {
+        "text": "Rapphöna",
+        "explanation": "Rapphöna är en hönsfågel."
+      },
+      {
+        "text": "Morkulla",
+        "explanation": "Morkulla är en snäppa och därmed en vadarfågel."
+      },
+      {
+        "text": "Järpe",
+        "explanation": "Järpe är en skogshöna."
+      },
+      {
+        "text": "Knipa",
+        "explanation": "Knipa är en dykand."
+      }
+    ],
+    "answer": 1,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Fåglar"
+  },
+  {
+    "id": "Q013",
+    "topic": "Fåglar",
+    "question": "Vad kännetecknar en orrtupps stjärt?",
+    "options": [
+      {
+        "text": "Den är tvärt avskuren som hos järpe",
+        "explanation": "Järpens stjärt har en annan form och teckning."
+      },
+      {
+        "text": "Den har en tydlig vit spets på varje fjäder",
+        "explanation": "Vita spetsar är inte det avgörande kännetecknet för orrtuppens stjärt."
+      },
+      {
+        "text": "Den är lyrformad med böjda yttre stjärtfjädrar",
+        "explanation": "Orrtuppens lyrformade stjärt är ett klassiskt artkännetecken."
+      },
+      {
+        "text": "Den är lång och spetsig som hos fasan",
+        "explanation": "Fasantuppen har en mycket lång, avsmalnande stjärt."
+      }
+    ],
+    "answer": 2,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Fåglar"
+  },
+  {
+    "id": "Q014",
+    "topic": "Fåglar",
+    "question": "Vilket påstående om gräsandshanens eklipsdräkt är korrekt?",
+    "options": [
+      {
+        "text": "Den är en tillfällig diskret dräkt efter häckningstiden",
+        "explanation": "Hanen får efter häckningen en mer honliknande och diskret dräkt."
+      },
+      {
+        "text": "Den är ett tecken på sjukdom som förstör fjäderpigmentet",
+        "explanation": "Eklipsdräkt är en normal del av ruggningscykeln."
+      },
+      {
+        "text": "Den förekommer endast hos ungfåglar före första flytten",
+        "explanation": "Även vuxna hanar får eklipsdräkt."
+      },
+      {
+        "text": "Den är den färgstarka parningsdräkten under vintern",
+        "explanation": "Den färgstarka praktdräkten är inte eklipsdräkten."
+      }
+    ],
+    "answer": 0,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Fåglar"
+  },
+  {
+    "id": "Q015",
+    "topic": "Fåglar",
+    "question": "Vilken fågel har som vuxen typiskt ljusa ögon och grå nacke?",
+    "options": [
+      {
+        "text": "Råka",
+        "explanation": "Råkan har annan huvudform och vanligen mörka ögon."
+      },
+      {
+        "text": "Korp",
+        "explanation": "Korpen har mörka ögon och mörk nacke."
+      },
+      {
+        "text": "Kråka",
+        "explanation": "Kråkan har normalt mörka ögon och saknar kajans ljusa nackteckning."
+      },
+      {
+        "text": "Kaja",
+        "explanation": "Kajan känns bland annat igen på ljusa ögon och grå nacke."
+      }
+    ],
+    "answer": 3,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Fåglar"
+  },
+  {
+    "id": "Q016",
+    "topic": "Övriga däggdjur",
+    "question": "Vilket kännetecken är särskilt användbart för att skilja hermelin från småvessla i vit vinterpäls?",
+    "options": [
+      {
+        "text": "Hermelinens svarta svansspets",
+        "explanation": "Hermelinen behåller normalt svart svansspets även i vinterpäls."
+      },
+      {
+        "text": "Småvesslans svarta öronspetsar",
+        "explanation": "Småvessla har inte svarta öronspetsar som typiskt artkännetecken."
+      },
+      {
+        "text": "Småvesslans grå halsring",
+        "explanation": "En grå halsring är inte ett säkert kännetecken för småvessla."
+      },
+      {
+        "text": "Hermelinens helt vita svans",
+        "explanation": "Hermelinens svans är inte helt vit."
+      }
+    ],
+    "answer": 0,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Övriga däggdjur"
+  },
+  {
+    "id": "Q017",
+    "topic": "Övriga däggdjur",
+    "question": "Vad är en viktig skillnad mellan harungar och vildkaninungar vid födseln?",
+    "options": [
+      {
+        "text": "Harungar föds pälsade med öppna ögon; kaninungar nakna och blinda",
+        "explanation": "Harar har borymmarliknande ungar, medan kaniner får hjälplösa ungar i bo."
+      },
+      {
+        "text": "Båda föds med öppna ögon och päls",
+        "explanation": "Kaninungar föds normalt blinda och utan päls."
+      },
+      {
+        "text": "Båda föds blinda men harungar blir seende tidigare",
+        "explanation": "Harungarna har normalt öppna ögon redan när de föds."
+      },
+      {
+        "text": "Harungar föds nakna men kaninungar pälsade",
+        "explanation": "Det är omvänt: harungar är välutvecklade vid födseln."
+      }
+    ],
+    "answer": 0,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Övriga däggdjur"
+  },
+  {
+    "id": "Q018",
+    "topic": "Övriga däggdjur",
+    "question": "Vilket av följande djur samlar ofta kvistar som vinterförråd under vatten?",
+    "options": [
+      {
+        "text": "Bisam",
+        "explanation": "Bisam äter främst vattenväxter men bygger inte typiskt sådana kvistförråd."
+      },
+      {
+        "text": "Vattensork",
+        "explanation": "Vattensorken har ett annat födoval och är inte känd för stora undervattensförråd av grenar."
+      },
+      {
+        "text": "Bäver",
+        "explanation": "Bävern lagrar grenar i anslutning till hyddan inför vintern."
+      },
+      {
+        "text": "Utter",
+        "explanation": "Uttern är ett fiskätande rovdjur och lagrar inte kvistar som föda."
+      }
+    ],
+    "answer": 2,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Övriga däggdjur"
+  },
+  {
+    "id": "Q019",
+    "topic": "Övriga däggdjur",
+    "question": "Vilken föda är särskilt viktig för utter i svenska vatten?",
+    "options": [
+      {
+        "text": "Bark",
+        "explanation": "Uttern är ett rovdjur och lever inte av bark."
+      },
+      {
+        "text": "Daggmask",
+        "explanation": "Daggmask är typisk föda för bland annat grävling men inte utterns huvudföda."
+      },
+      {
+        "text": "Fisk",
+        "explanation": "Fisken utgör normalt huvuddelen av utterns föda."
+      },
+      {
+        "text": "Bär",
+        "explanation": "Bär utgör inte utterns viktigaste föda."
+      }
+    ],
+    "answer": 2,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Övriga däggdjur"
+  },
+  {
+    "id": "Q020",
+    "topic": "Övriga däggdjur",
+    "question": "Vad beskriver skogsharens vinterpäls bäst?",
+    "options": [
+      {
+        "text": "Den varierar och kan vara gråblå i delar av södra Sverige",
+        "explanation": "I södra Sverige förekommer gråblå vinterform, medan den ofta blir vit i norr."
+      },
+      {
+        "text": "Den är alltid vit i hela Sverige",
+        "explanation": "Vinterpälsens färg varierar geografiskt."
+      },
+      {
+        "text": "Den blir vit hos honor men grå hos hanar",
+        "explanation": "Skillnaden styrs inte av kön på detta sätt."
+      },
+      {
+        "text": "Den är alltid brun som hos fältharen",
+        "explanation": "Skogsharen får ofta vit eller gråblå vinterpäls."
+      }
+    ],
+    "answer": 0,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Övriga däggdjur"
+  },
+  {
+    "id": "Q021",
+    "topic": "Hagelgevär",
+    "question": "Vad anger längdbeteckningen 70 i hagelpatronen 12/70?",
+    "options": [
+      {
+        "text": "Längden på hagelsvärmen vid mynningen",
+        "explanation": "Patronbeteckningen handlar inte om hagelsvärmens längd."
+      },
+      {
+        "text": "Längden på gevärets övergångskona",
+        "explanation": "Övergångskonan är en del av pipans konstruktion."
+      },
+      {
+        "text": "Längden på den avfyrade, utvecklade hylsan i millimeter",
+        "explanation": "Nominell hylslängd anges för hylsan efter att förslutningen öppnats."
+      },
+      {
+        "text": "Längden på den oavfyrade patronen inklusive förslutning",
+        "explanation": "En oavfyrad patron är ofta kortare än sin angivna hylslängd."
+      }
+    ],
+    "answer": 2,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Hagelgevär"
+  },
+  {
+    "id": "Q022",
+    "topic": "Hagelgevär",
+    "question": "Vad innebär det att en hagelbock har ejektorer?",
+    "options": [
+      {
+        "text": "Den har automatisk säkring",
+        "explanation": "Säkring och ejektor är olika mekanismer."
+      },
+      {
+        "text": "Den kan avfyra båda piporna samtidigt",
+        "explanation": "Ejektorn påverkar hylshantering, inte avfyringsordning."
+      },
+      {
+        "text": "Den har utbytbara choker",
+        "explanation": "Utbytbara choker är ett separat system."
+      },
+      {
+        "text": "Den kastar ut avfyrade hylsor när den bryts",
+        "explanation": "Ejektorn kastar ut skjutna hylsor när vapnet öppnas."
+      }
+    ],
+    "answer": 3,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Hagelgevär"
+  },
+  {
+    "id": "Q023",
+    "topic": "Hagelgevär",
+    "question": "Vad är den normala effekten av kraftigare trångborrning med samma hagelpatron?",
+    "options": [
+      {
+        "text": "Träffbilden blir normalt tätare på ett givet avstånd",
+        "explanation": "Trängre choke koncentrerar normalt hagelsvärmen."
+      },
+      {
+        "text": "Haglen blir tyngre",
+        "explanation": "Choken ändrar inte de enskilda haglens massa."
+      },
+      {
+        "text": "Utgångshastigheten fördubblas",
+        "explanation": "Trångborrning är främst avsedd att påverka spridningen, inte att dubbla hastigheten."
+      },
+      {
+        "text": "Kulan stabiliseras genom rotation",
+        "explanation": "Vanliga hagel är inte en enda kula som stabiliseras genom räffling."
+      }
+    ],
+    "answer": 0,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Hagelgevär"
+  },
+  {
+    "id": "Q024",
+    "topic": "Hagelgevär",
+    "question": "Två patroner innehåller samma vikt av blyhagel. Vilken har normalt flest enskilda hagel?",
+    "options": [
+      {
+        "text": "Den med grövre hagel",
+        "explanation": "Grova hagel väger mer styck och blir därför färre vid samma totalvikt."
+      },
+      {
+        "text": "Båda har lika många",
+        "explanation": "Olika hageldiameter ger olika antal vid samma vikt."
+      },
+      {
+        "text": "Den med finare hagel",
+        "explanation": "Finare hagel väger mindre styck och ger fler projektiler vid samma laddningsvikt."
+      },
+      {
+        "text": "Det avgörs enbart av kalibern",
+        "explanation": "Kalibern avgör inte antalet utan hänsyn till hagelstorlek."
+      }
+    ],
+    "answer": 2,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Hagelgevär"
+  },
+  {
+    "id": "Q025",
+    "topic": "Hagelgevär",
+    "question": "Vad innebär det att ett hagelgevär har patronläge 12/76?",
+    "options": [
+      {
+        "text": "Det har en pipdiameter på 76 mm",
+        "explanation": "76 anger patronlägeslängden i millimeter, inte pipdiametern."
+      },
+      {
+        "text": "Det är avsett för kulpatroner med 76 mm hylsa",
+        "explanation": "12/76 är en hagelpatronbeteckning, inte kulpatronbeteckning."
+      },
+      {
+        "text": "Det kan normalt använda 12/70 och lämpliga 12/76-patroner",
+        "explanation": "Kortare hylsor av rätt kaliber passar normalt, med övriga tryck- och ammunitionskrav uppfyllda."
+      },
+      {
+        "text": "Det får bara laddas med exakt 76 mm oavfyrade patroner",
+        "explanation": "Hylslängden avser den utvecklade hylsan, och kortare patroner kan normalt användas."
+      }
+    ],
+    "answer": 2,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Hagelgevär"
+  },
+  {
+    "id": "Q026",
+    "topic": "Kulgevär och ammunition",
+    "question": "Vad är räfflingens huvudsyfte i ett kulgevär?",
+    "options": [
+      {
+        "text": "Att bromsa kulan för att minska rikoschetter",
+        "explanation": "Räfflingens avsikt är inte att bromsa kulan."
+      },
+      {
+        "text": "Att få kulan att expandera före mynningen",
+        "explanation": "Expansion hos jaktkulor är avsedd att ske i målet."
+      },
+      {
+        "text": "Att tryckutjämna patronhylsan före avfyrning",
+        "explanation": "Patronhylsans tryck påverkas inte på det beskrivna sättet av räfflingen."
+      },
+      {
+        "text": "Att ge kulan rotation och stabilitet under flykten",
+        "explanation": "Räfflingen ger rotation som stabiliserar kulan gyroskopiskt."
+      }
+    ],
+    "answer": 3,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Kulgevär och ammunition"
+  },
+  {
+    "id": "Q027",
+    "topic": "Kulgevär och ammunition",
+    "question": "Vad står 55 för i kaliberbeteckningen 6,5 × 55?",
+    "options": [
+      {
+        "text": "Kulans längd i mm",
+        "explanation": "Kulans längd varierar med kulmodell."
+      },
+      {
+        "text": "Hylsans nominella längd i mm",
+        "explanation": "Det andra talet i denna metriska beteckning avser hylslängden."
+      },
+      {
+        "text": "Kulans massa i grains",
+        "explanation": "Kulvikten anges separat och varierar mellan laddningar."
+      },
+      {
+        "text": "Patronens totala längd i mm",
+        "explanation": "Patronens totallängd är något annat än hylslängden."
+      }
+    ],
+    "answer": 1,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Kulgevär och ammunition"
+  },
+  {
+    "id": "Q028",
+    "topic": "Kulgevär och ammunition",
+    "question": "En kula väger 10 g och färdas i 600 m/s. Hur stor är rörelseenergin ungefär?",
+    "options": [
+      {
+        "text": "6 000 J",
+        "explanation": "Att multiplicera gram med hastighet ger inte rörelseenergi i joule."
+      },
+      {
+        "text": "3 600 J",
+        "explanation": "Detta utelämnar faktorn ½."
+      },
+      {
+        "text": "900 J",
+        "explanation": "Detta är hälften av det korrekta resultatet."
+      },
+      {
+        "text": "1 800 J",
+        "explanation": "E = ½mv² = 0,5 × 0,010 × 600² = 1 800 joule."
+      }
+    ],
+    "answer": 3,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Kulgevär och ammunition"
+  },
+  {
+    "id": "Q029",
+    "topic": "Kulgevär och ammunition",
+    "question": "Vad innebär generellt en högre ballistisk koefficient (BC), allt annat lika?",
+    "options": [
+      {
+        "text": "Att kulan bibehåller fart bättre och får mindre vindavdrift",
+        "explanation": "Högre BC betyder normalt bättre förmåga att motstå luftmotstånd."
+      },
+      {
+        "text": "Att patronens kruttryck alltid är högre",
+        "explanation": "BC anger inte kruttrycket."
+      },
+      {
+        "text": "Att kulan expanderar mer i målet",
+        "explanation": "Expansion styrs av kulkonstruktion och anslagshastighet, inte av BC ensamt."
+      },
+      {
+        "text": "Att kulan väger mer oavsett kaliber",
+        "explanation": "BC bestämmer inte kulans massa ensamt."
+      }
+    ],
+    "answer": 0,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Kulgevär och ammunition"
+  },
+  {
+    "id": "Q030",
+    "topic": "Kulgevär och ammunition",
+    "question": "Vilka krav uppfyller en blyfri expanderande kula för klass 1 enligt NFS 2023:8?",
+    "options": [
+      {
+        "text": "Minst 7,7 g och 1 800 J vid 100 meter",
+        "explanation": "E100 är lägre än kravet 2 000 J."
+      },
+      {
+        "text": "Minst 8,0 g och 1 500 J vid 100 meter",
+        "explanation": "E100 är för låg även om vikten är tillräcklig."
+      },
+      {
+        "text": "Minst 7,0 g och 2 000 J vid 100 meter",
+        "explanation": "Kulvikten är för låg för det blyfria alternativet."
+      },
+      {
+        "text": "Minst 7,7 g och 2 000 J vid 100 meter",
+        "explanation": "Blyfri expanderande klass 1-kula ska väga minst 7,7 g och nå E100 minst 2 000 J."
+      }
+    ],
+    "answer": 3,
+    "ref": "https://www.naturvardsverket.se/lagar-och-regler/foreskrifter-och-allmanna-rad/2023/nfs-20238/",
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Kulgevär och ammunition"
+  },
+  {
+    "id": "Q031",
+    "topic": "Jakthundar",
+    "question": "Vad är en ställande hunds huvudsakliga uppgift vid älgjakt?",
+    "options": [
+      {
+        "text": "Att driva älgen i hög fart förbi flera pass",
+        "explanation": "Snabba drev förbi pass är inte huvudsyftet med ställande älghund."
+      },
+      {
+        "text": "Att markera stånd för fältfågel",
+        "explanation": "Stånd för fältfågel är typiskt för stående fågelhund."
+      },
+      {
+        "text": "Att apportera fällt vilt ur vatten",
+        "explanation": "Apportering ur vatten är en annan jaktlig specialisering."
+      },
+      {
+        "text": "Att hitta älg och få den att stanna eller röra sig långsamt genom skall",
+        "explanation": "Hunden söker upp älg och försöker genom skall hålla den på plats för jägaren."
+      }
+    ],
+    "answer": 3,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Jakthundar"
+  },
+  {
+    "id": "Q032",
+    "topic": "Jakthundar",
+    "question": "Vad kännetecknar en stående fågelhund?",
+    "options": [
+      {
+        "text": "Den markerar fågelvittring genom att stå stilla",
+        "explanation": "Stående fågelhundar markerar viltets läge genom ett stånd."
+      },
+      {
+        "text": "Den driver fågel i långa rundor mot passkyttar",
+        "explanation": "Långa drev är inte stående fågelhundars huvudsakliga arbetssätt."
+      },
+      {
+        "text": "Den skäller kontinuerligt efter fågeln i trädet",
+        "explanation": "Trädskall är typiskt för bland annat skällande fågelhundar."
+      },
+      {
+        "text": "Den söker endast efter döda fåglar",
+        "explanation": "Eftersök och apportering är inte definitionen av stående fågelhund."
+      }
+    ],
+    "answer": 0,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Jakthundar"
+  },
+  {
+    "id": "Q033",
+    "topic": "Jakthundar",
+    "question": "Vilken uppgift är särskilt typisk för en apporterande hund efter ett skott?",
+    "options": [
+      {
+        "text": "Att självständigt avliva påskjutet högvilt",
+        "explanation": "Apportören ska inte i första hand avliva stort vilt."
+      },
+      {
+        "text": "Att söka upp spår efter gårdagens viltobservation",
+        "explanation": "Att söka gamla observationsspår är inte apportering."
+      },
+      {
+        "text": "Att hämta fällt småvilt och lämna det till föraren",
+        "explanation": "Apportering innebär att hämta och lämna fällt vilt, ofta fågel."
+      },
+      {
+        "text": "Att hålla älgen stående med skall",
+        "explanation": "Att ställa älg är en ställande hunds uppgift."
+      }
+    ],
+    "answer": 2,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Jakthundar"
+  },
+  {
+    "id": "Q034",
+    "topic": "Jakthundar",
+    "question": "Vad betyder begreppet drevtid vid jakt med drivande hund?",
+    "options": [
+      {
+        "text": "Hur långt från föraren hunden får röra sig",
+        "explanation": "Sökavstånd är en annan egenskap."
+      },
+      {
+        "text": "Hur länge hunden vilar efter ett drev",
+        "explanation": "Återhämtning efter drevet är inte drevtid."
+      },
+      {
+        "text": "Tiden mellan hundens födsel och jaktmognad",
+        "explanation": "Hundens ålder eller utbildningstid avses inte."
+      },
+      {
+        "text": "Den tid då hunden följer och driver vilt med drevskall",
+        "explanation": "Drevtiden avser själva förföljandet av viltet med drevskall."
+      }
+    ],
+    "answer": 3,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Jakthundar"
+  },
+  {
+    "id": "Q035",
+    "topic": "Jakthundar",
+    "question": "Vilken hundtyp förknippas främst med skallgivning mot fågel som sitter uppe i ett träd?",
+    "options": [
+      {
+        "text": "Stående fågelhund",
+        "explanation": "Stående fågelhund markerar främst genom stånd, inte trädskall."
+      },
+      {
+        "text": "Skällande fågelhund",
+        "explanation": "Skällande fågelhund lokaliserar skogsfågel som satt sig i träd och markerar med skall."
+      },
+      {
+        "text": "Ställande älghund",
+        "explanation": "Ställande älghund används främst för klövvilt."
+      },
+      {
+        "text": "Retriever",
+        "explanation": "Retriever är främst en apporterande hund."
+      }
+    ],
+    "answer": 1,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Jakthundar"
+  },
+  {
+    "id": "Q036",
+    "topic": "Jaktformer",
+    "question": "Vilket påstående beskriver bäst pyrschjakt?",
+    "options": [
+      {
+        "text": "Jägaren väntar på att drivande hund för viltet mot passet",
+        "explanation": "Vilt som drivs mot pass beskriver drivjakt."
+      },
+      {
+        "text": "Jägaren använder rop för att samla vilt till en öppen plats",
+        "explanation": "Att locka vilt med ljud kallas lockjakt."
+      },
+      {
+        "text": "Jägaren sitter helt stilla på en fast plats",
+        "explanation": "Stillastående väntan är typiskt för vakjakt."
+      },
+      {
+        "text": "Jägaren rör sig försiktigt och försöker närma sig viltet",
+        "explanation": "Pyrsch är smygjakt där jägaren aktivt närmar sig viltet försiktigt."
+      }
+    ],
+    "answer": 3,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Jaktformer"
+  },
+  {
+    "id": "Q037",
+    "topic": "Jaktformer",
+    "question": "Vad är det huvudsakliga kännetecknet för vakjakt?",
+    "options": [
+      {
+        "text": "Jägaren förföljer synligt vilt till fots",
+        "explanation": "Att aktivt smyga på vilt beskriver pyrsch."
+      },
+      {
+        "text": "Jägaren väntar på en lämplig plats tills viltet visar sig",
+        "explanation": "Vakjakt innebär att jägaren väntar på en passande plats."
+      },
+      {
+        "text": "Jägaren går i ett drev och stöter viltet mot pass",
+        "explanation": "Den beskrivningen avser drevjaktens drevkedja."
+      },
+      {
+        "text": "En hund skäller på viltet tills jägaren kommer fram",
+        "explanation": "Detta beskriver snarare ställande hundjakt."
+      }
+    ],
+    "answer": 1,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Jaktformer"
+  },
+  {
+    "id": "Q038",
+    "topic": "Jaktformer",
+    "question": "Vad innebär lockjakt?",
+    "options": [
+      {
+        "text": "Att låta hundarna driva vilt i cirklar",
+        "explanation": "Drev med hund är en annan metod."
+      },
+      {
+        "text": "Att genom ljud eller andra signaler försöka få vilt att närma sig",
+        "explanation": "Lockjakt utnyttjar exempelvis härmning av djurläten."
+      },
+      {
+        "text": "Att jaga endast under djurens brunst",
+        "explanation": "Lockjakt kan användas vid olika tidpunkter och är inte definierad av brunst."
+      },
+      {
+        "text": "Att alltid använda utfodring som dragningskraft",
+        "explanation": "Utfodring eller åtel är något annat än lockjakt."
+      }
+    ],
+    "answer": 1,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Jaktformer"
+  },
+  {
+    "id": "Q039",
+    "topic": "Jaktformer",
+    "question": "Vad kännetecknar en klappjakt jämfört med ren vakjakt?",
+    "options": [
+      {
+        "text": "Jakten sker alltid från torn",
+        "explanation": "Passkyttar kan placeras på olika säkra platser, inte bara torn."
+      },
+      {
+        "text": "En grupp driver viltet mot utplacerade skyttar",
+        "explanation": "Vid klappjakt rör sig drevfolk genom området och stöter vilt mot passkyttarna."
+      },
+      {
+        "text": "Endast fåglar får jagas med metoden",
+        "explanation": "Klappjakt är en metoddefinition, inte en generell regel som endast avser fåglar."
+      },
+      {
+        "text": "Jägaren smyger ensam genom terrängen",
+        "explanation": "Ensam smygjakt kallas pyrsch, inte klappjakt."
+      }
+    ],
+    "answer": 1,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Jaktformer"
+  },
+  {
+    "id": "Q040",
+    "topic": "Jaktformer",
+    "question": "Vad är huvudsyftet med ett eftersök efter ett misstänkt skadskjutet djur?",
+    "options": [
+      {
+        "text": "Att snarast hitta och vid behov avliva det skadade djuret",
+        "explanation": "Eftersöket syftar till att minimera lidandet genom att hitta och vid behov avliva skadat vilt."
+      },
+      {
+        "text": "Att räkna hur många friska djur som finns kvar",
+        "explanation": "Inventering är inte eftersökets syfte."
+      },
+      {
+        "text": "Att avgöra om markägaren kan få ersättning",
+        "explanation": "Eventuell ersättning är inte eftersökets främsta syfte."
+      },
+      {
+        "text": "Att hålla det skadade djuret i rörelse tills det tröttnar",
+        "explanation": "Att avsiktligt hålla skadat vilt i rörelse kan förvärra situationen."
+      }
+    ],
+    "answer": 0,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Jaktformer"
+  },
+  {
+    "id": "Q041",
+    "topic": "Jaktlagstiftning",
+    "question": "Vilket dokument visar att en person har betalat den statliga viltvårdsavgiften för jaktåret?",
+    "options": [
+      {
+        "text": "Vapenlicens",
+        "explanation": "Vapenlicens visar rätt att inneha angivet vapen, inte betalad avgift."
+      },
+      {
+        "text": "Jägarexamensbevis",
+        "explanation": "Jägarexamen visar genomförda prov, inte betalad viltvårdsavgift."
+      },
+      {
+        "text": "Statligt jaktkort",
+        "explanation": "Det statliga jaktkortet är beviset på betalad viltvårdsavgift."
+      },
+      {
+        "text": "Medlemskort i jaktlag",
+        "explanation": "Medlemskap i ett jaktlag ersätter inte statligt jaktkort."
+      }
+    ],
+    "answer": 2,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Jaktlagstiftning"
+  },
+  {
+    "id": "Q042",
+    "topic": "Jaktlagstiftning",
+    "question": "Vem har normalt jakträtten på en fastighet i Sverige om den inte upplåtits till någon annan?",
+    "options": [
+      {
+        "text": "Fastighetsägaren",
+        "explanation": "Jakträtten följer som huvudregel markägandet om den inte upplåtits."
+      },
+      {
+        "text": "Den som först ansöker om jaktkort",
+        "explanation": "Jaktkortet ger inte jakträtt på annans mark."
+      },
+      {
+        "text": "Kommunen",
+        "explanation": "Kommunen har inte automatiskt jakträtt på privatägd mark."
+      },
+      {
+        "text": "Närmaste jaktvårdskrets",
+        "explanation": "En jaktvårdskrets får inte automatiskt jakträtten."
+      }
+    ],
+    "answer": 0,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Jaktlagstiftning"
+  },
+  {
+    "id": "Q043",
+    "topic": "Jaktlagstiftning",
+    "question": "Vilken myndighet utfärdar normalt tillstånd att inneha ett jaktvapen i Sverige?",
+    "options": [
+      {
+        "text": "Naturvårdsverket",
+        "explanation": "Naturvårdsverket utfärdar regler och ansvarar för bland annat jägarexamens innehåll."
+      },
+      {
+        "text": "Polismyndigheten",
+        "explanation": "Polismyndigheten prövar ansökningar om vapenlicens."
+      },
+      {
+        "text": "Svenska Jägareförbundet",
+        "explanation": "Jägareförbundet utfärdar inte vapenlicenser."
+      },
+      {
+        "text": "Länsstyrelsen",
+        "explanation": "Länsstyrelsen har andra uppgifter inom jaktförvaltningen men beslutar inte normalt om vapenlicens."
+      }
+    ],
+    "answer": 1,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Jaktlagstiftning"
+  },
+  {
+    "id": "Q044",
+    "topic": "Jaktlagstiftning",
+    "question": "Vid jakt efter älg, hjort, rådjur, vildsvin eller mufflonfår, hur snabbt ska en särskilt tränad eftersökshund kunna finnas på skottplatsen vid behov?",
+    "options": [
+      {
+        "text": "Inom 30 minuter",
+        "explanation": "Kravet är två timmar, inte 30 minuter."
+      },
+      {
+        "text": "Inom en timme",
+        "explanation": "En timme kan vara lämpligt men är inte den angivna maxgränsen."
+      },
+      {
+        "text": "Inom två timmar",
+        "explanation": "En särskilt tränad eftersökshund ska vid behov kunna finnas på skottplatsen inom två timmar."
+      },
+      {
+        "text": "Senast nästa morgon",
+        "explanation": "Att vänta till nästa morgon uppfyller inte kravet på tillgång till eftersökshund."
+      }
+    ],
+    "answer": 2,
+    "ref": "https://www.naturvardsverket.se/amnesomraden/jakt-och-vilt/jakt-pa-klovvilt/",
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Jaktlagstiftning"
+  },
+  {
+    "id": "Q045",
+    "topic": "Jaktlagstiftning",
+    "question": "Vilken art får enligt huvudregeln jagas med klass 2-kulpatron, om jakten i övrigt är laglig?",
+    "options": [
+      {
+        "text": "Kronhjort",
+        "explanation": "Kronhjort är en hjort som kräver klass 1."
+      },
+      {
+        "text": "Rådjur",
+        "explanation": "Rådjur får jagas med klass 2 eftersom undantaget för hjortar inte omfattar rådjur på det sättet."
+      },
+      {
+        "text": "Vildsvin",
+        "explanation": "Vildsvin kräver klass 1 vid vanlig kuljakt."
+      },
+      {
+        "text": "Dovhjort",
+        "explanation": "Dovhjort kräver klass 1 vid vanlig kuljakt."
+      }
+    ],
+    "answer": 1,
+    "ref": "https://www.naturvardsverket.se/lagar-och-regler/foreskrifter-och-allmanna-rad/2023/nfs-20238/",
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Jaktlagstiftning"
+  },
+  {
+    "id": "Q046",
+    "topic": "Säkerhet och jaktetik",
+    "question": "Vad är den säkraste utgångspunkten vid hantering av ett vapen vars laddningsstatus är osäker?",
+    "options": [
+      {
+        "text": "Utgå från att vapnet är oladdat om säkringen är tillkopplad",
+        "explanation": "Säkringen är inte ett bevis på att vapnet är oladdat."
+      },
+      {
+        "text": "Utgå från att vapnet är laddat tills det kontrollerats",
+        "explanation": "Behandla vapnet som laddat och kontrollera patronläge och magasin på säkert sätt."
+      },
+      {
+        "text": "Utgå från att vapnet är oladdat om magasinet är borttaget",
+        "explanation": "En patron kan finnas i patronläget även om magasinet tagits bort."
+      },
+      {
+        "text": "Utgå från att vapnet är tomt när pipan pekar uppåt",
+        "explanation": "Pipans riktning säger inget om laddningsstatus."
+      }
+    ],
+    "answer": 1,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Säkerhet och jaktetik"
+  },
+  {
+    "id": "Q047",
+    "topic": "Säkerhet och jaktetik",
+    "question": "Vad är det viktigaste skälet att avstå skott mot vilt som står framför hård, stenig mark?",
+    "options": [
+      {
+        "text": "Siktets förstoring kan bli för hög",
+        "explanation": "Förstoring har ingen direkt koppling till stenens rikoschettrisk."
+      },
+      {
+        "text": "Kulan får för liten genomträngning i mjukvävnad",
+        "explanation": "Genomträngning i viltet besvarar inte säkerheten för omgivningen."
+      },
+      {
+        "text": "Rikoschettrisken kan göra kulfånget osäkert",
+        "explanation": "Hårda stenytor kan ge rikoschetter och osäkert kulfång."
+      },
+      {
+        "text": "Kulans ballistiska koefficient försämras nära sten",
+        "explanation": "BC förändras inte för att sten finns bakom målet."
+      }
+    ],
+    "answer": 2,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Säkerhet och jaktetik"
+  },
+  {
+    "id": "Q048",
+    "topic": "Säkerhet och jaktetik",
+    "question": "Vad är mest korrekt att göra om du trycker av men bara hör ett klick?",
+    "options": [
+      {
+        "text": "Hålla vapnet i säker riktning och följa rutin för möjlig fördröjd antändning",
+        "explanation": "Håll vapnet i säker riktning och avvakta enligt instruktionerna för klick eller fördröjd antändning."
+      },
+      {
+        "text": "Rikta vapnet mot marken och öppna omedelbart slutstycket",
+        "explanation": "Ett omedelbart öppnande kan vara riskfyllt vid fördröjd antändning."
+      },
+      {
+        "text": "Göra ytterligare ett avtryckarförsök",
+        "explanation": "Ett nytt avtryckarförsök är inte första säkerhetsåtgärden."
+      },
+      {
+        "text": "Blåsa i mynningen för att kontrollera om loppet är öppet",
+        "explanation": "Det är aldrig lämpligt att hantera mynningen på detta sätt."
+      }
+    ],
+    "answer": 0,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Säkerhet och jaktetik"
+  },
+  {
+    "id": "Q049",
+    "topic": "Säkerhet och jaktetik",
+    "question": "Vilken är den viktigaste jaktetiska principen vid bedömning av om ett skott ska avlossas?",
+    "options": [
+      {
+        "text": "Välj alltid det längsta avstånd där vapnet tekniskt kan träffa",
+        "explanation": "Maximalt tekniskt skjutavstånd är inte ett etiskt mått på skotthåll."
+      },
+      {
+        "text": "Prioritera att skjuta innan viltet hinner försvinna",
+        "explanation": "Tidspress är inte skäl att tumma på säkerhet eller skottverkan."
+      },
+      {
+        "text": "Skjut endast när viltet är i snabb rörelse",
+        "explanation": "Rörelse innebär ofta en svårare skottsituation, inte en princip att alltid eftersträva."
+      },
+      {
+        "text": "Säkerställ säkert kulfång och hög sannolikhet för omedelbart dödande skott",
+        "explanation": "Säkerhet och en hög sannolikhet för snabb och skonsam avlivning styr beslutet."
+      }
+    ],
+    "answer": 3,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Säkerhet och jaktetik"
+  },
+  {
+    "id": "Q050",
+    "topic": "Säkerhet och jaktetik",
+    "question": "Varför ska fingret normalt hållas utanför varbygeln tills ett skott avses?",
+    "options": [
+      {
+        "text": "För att öka vapnets mekaniska säkring",
+        "explanation": "Fingrets placering ändrar inte vapnets inbyggda säkringsmekanism."
+      },
+      {
+        "text": "För att minska risken för oavsiktlig avfyrning",
+        "explanation": "Det minskar risken att avtryckaren påverkas oavsiktligt."
+      },
+      {
+        "text": "För att förhindra att patronen fastnar i magasinet",
+        "explanation": "Patronmatning påverkas inte på det sättet av fingret."
+      },
+      {
+        "text": "För att förbättra kulans stabilitet",
+        "explanation": "Kulans stabilitet påverkas av bland annat räffling, inte fingerplacering."
+      }
+    ],
+    "answer": 1,
+    "ref": null,
+    "verification": "prototyp – ej källgranskad i denna omgång",
+    "source_date": null,
+    "subcategory": "Säkerhet och jaktetik"
+  },
+  {
+    "id": "Q051",
+    "topic": "Fåglar",
+    "subcategory": "Skogshöns",
+    "difficulty": 2,
+    "question": "Vilket påstående om järpens sociala beteende skiljer arten från flera andra skogshöns?",
+    "options": [
+      {
+        "text": "Den häckar i kolonier med gemensamma bon",
+        "explanation": "Järpen lever revirbundet och kolonihäckar inte."
+      },
+      {
+        "text": "Den bildar stabila familjegrupper med tre generationer",
+        "explanation": "Järpen kan leva i par men bildar inte regelmässigt flergenerationsflockar."
+      },
+      {
+        "text": "Den lever ofta i par under en stor del av året",
+        "explanation": "Järpen kan hålla ihop som par större delen av året, till skillnad från flera andra skogshöns."
+      },
+      {
+        "text": "Den bildar stora flockar med enbart tuppar året runt",
+        "explanation": "Järpen håller inte normalt stora, permanenta tuppflockar."
+      }
+    ],
+    "answer": 2,
+    "ref": "https://jagareforbundet.se/viltarter/viltarter-faglar/jarpe/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q052",
+    "topic": "Fåglar",
+    "subcategory": "Skogshöns",
+    "difficulty": 2,
+    "question": "Vilket födoslag är särskilt viktigt för järpen under vintern?",
+    "options": [
+      {
+        "text": "Tallbarr som enda huvudsakliga föda",
+        "explanation": "Tallbarr dominerar i stället tjäderns vinterdiet."
+      },
+      {
+        "text": "Knoppar och hängen, bland annat från al",
+        "explanation": "Järpen äter vintertid bland annat knoppar och hängen, särskilt från al."
+      },
+      {
+        "text": "Marklevande insekter under snön",
+        "explanation": "Insekter är inte järpens huvudsakliga vinterföda."
+      },
+      {
+        "text": "Fisk och andra vattenlevande smådjur",
+        "explanation": "Järpen är skogshöna, inte fiskätande fågel."
+      }
+    ],
+    "answer": 1,
+    "ref": "https://jagareforbundet.se/viltarter/viltarter-faglar/jarpe/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q053",
+    "topic": "Fåglar",
+    "subcategory": "Skogshöns",
+    "difficulty": 2,
+    "question": "Vilket kännetecken hos en tjäderhöna kan hjälpa till att skilja henne bakifrån från en orrhöna?",
+    "options": [
+      {
+        "text": "Två ljusare längsgående stråk över skuldrorna",
+        "explanation": "Tjäderhönan kan ha ljusa hängselliknande stråk över skuldrorna, vilka orrhönan saknar."
+      },
+      {
+        "text": "En tydlig ring av vita fjädrar runt halsen",
+        "explanation": "En sådan halsring är inte det relevanta kännetecknet hos tjäderhöna."
+      },
+      {
+        "text": "Helt vit stjärt och helvita vingar",
+        "explanation": "Varken tjäder- eller orrhönan har en sådan dräkt."
+      },
+      {
+        "text": "Lång spetsig stjärt med svarta yttre pennor",
+        "explanation": "Det är inte det typiska kännetecknet som skiljer dessa hönor bakifrån."
+      }
+    ],
+    "answer": 0,
+    "ref": "https://jagareforbundet.se/vilt/vilt-vetande2/artpresentation/faglar/tjader/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q054",
+    "topic": "Fåglar",
+    "subcategory": "Skogshöns",
+    "difficulty": 2,
+    "question": "Vad utgör normalt en mycket stor del av en vuxen tjäders vinterföda?",
+    "options": [
+      {
+        "text": "Daggmaskar",
+        "explanation": "Daggmaskar är inte vinterdietens dominerande föda."
+      },
+      {
+        "text": "Tallbarr",
+        "explanation": "Tjädern lever vintertid i hög grad av tallbarr."
+      },
+      {
+        "text": "Enrisbär",
+        "explanation": "Enrisbär är inte den huvudsakliga vinterfödan för tjäder."
+      },
+      {
+        "text": "Alhängen",
+        "explanation": "Alhängen är typiska i bland annat järpens vinterföda."
+      }
+    ],
+    "answer": 1,
+    "ref": "https://jagareforbundet.se/vilt/vilt-vetande2/artpresentation/faglar/tjader/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q055",
+    "topic": "Fåglar",
+    "subcategory": "Skogshöns",
+    "difficulty": 2,
+    "question": "Vilken föda är särskilt viktig för tjäderkycklingar under deras första levnadsveckor?",
+    "options": [
+      {
+        "text": "Insekter",
+        "explanation": "Små tjäderkycklingar behöver framför allt insekter innan de gradvis övergår till växtföda."
+      },
+      {
+        "text": "Alknoppar",
+        "explanation": "Alknoppar är inte huvudfödan för nykläckta tjäderkycklingar."
+      },
+      {
+        "text": "Enbart mogna blåbär",
+        "explanation": "Små kycklingar är under sina första veckor starkt beroende av insekter."
+      },
+      {
+        "text": "Tallbarr",
+        "explanation": "Tallbarr är framför allt viktig föda för vuxna tjädrar vintertid."
+      }
+    ],
+    "answer": 0,
+    "ref": "https://jagareforbundet.se/vilt/vilt-vetande2/artpresentation/faglar/tjader/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q056",
+    "topic": "Fåglar",
+    "subcategory": "Skogshöns",
+    "difficulty": 2,
+    "question": "Hur skiljer sig tjäderhönan vanligen från orrhönan i bröstteckningen?",
+    "options": [
+      {
+        "text": "Tjäderhönan har vanligen metalliskt grönsvart bröst",
+        "explanation": "Den färgen hör till vuxna tjädertuppens bröst, inte hönans."
+      },
+      {
+        "text": "Tjäderhönan saknar tvärvattring medan orrhönan är tvärvattrad",
+        "explanation": "Båda kan vara tvärvattrade; skillnader i storlek och bröstton är mer användbara."
+      },
+      {
+        "text": "Tjäderhönan har ofta en tydligare varmt rödbrun bröstton",
+        "explanation": "Tjäderhönans varmare rödbruna bröst är ett användbart kännetecken gentemot orrhönan."
+      },
+      {
+        "text": "Tjäderhönan har helt vitt bröst",
+        "explanation": "Tjäderhönan har brunvattrad dräkt och normalt inte helvitt bröst."
+      }
+    ],
+    "answer": 2,
+    "ref": "https://jagareforbundet.se/vilt/vilt-vetande2/artpresentation/faglar/orre/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q057",
+    "topic": "Fåglar",
+    "subcategory": "Vadare",
+    "difficulty": 2,
+    "question": "Vilken fågel är större än beckasiner men kan påminna om dem genom sin långa raka näbb?",
+    "options": [
+      {
+        "text": "Knipa",
+        "explanation": "Knipa är en dykand med kortare, bredare näbb."
+      },
+      {
+        "text": "Rapphöna",
+        "explanation": "Rapphöna är en hönsfågel med kort näbb."
+      },
+      {
+        "text": "Kricka",
+        "explanation": "Kricka är en and med annan näbbform och kroppsbyggnad."
+      },
+      {
+        "text": "Morkulla",
+        "explanation": "Morkullan är en större vadare med lång rak näbb och kan förväxlas med beckasiner."
+      }
+    ],
+    "answer": 3,
+    "ref": "https://jagareforbundet.se/vilt/vilt-vetande2/artpresentation/faglar/morkulla/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q058",
+    "topic": "Fåglar",
+    "subcategory": "Vadare",
+    "difficulty": 2,
+    "question": "Vem utför normalt morkullans karakteristiska spelflykt under vår och försommar?",
+    "options": [
+      {
+        "text": "Honorna under ruvningen",
+        "explanation": "Honorna ruvar på marken medan hanarna utför spelflykt."
+      },
+      {
+        "text": "Båda könen i gemensamma flockar",
+        "explanation": "Spelflykten utförs normalt av hanarna, inte som gemensam flockflykt."
+      },
+      {
+        "text": "Enbart fjolårets ungfåglar",
+        "explanation": "Spelflykt är i första hand ett parningsbeteende hos hanarna."
+      },
+      {
+        "text": "Hanarna",
+        "explanation": "Det är morkullans hanar som vanligen spelflyger under våren och försommaren."
+      }
+    ],
+    "answer": 3,
+    "ref": "https://jagareforbundet.se/vilt/vilt-vetande2/artpresentation/faglar/morkulla/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q059",
+    "topic": "Fåglar",
+    "subcategory": "Fälthöns",
+    "difficulty": 2,
+    "question": "Vilken livsmiljö förknippas främst med rapphöna i Sverige?",
+    "options": [
+      {
+        "text": "Havsskärgårdens klippstränder",
+        "explanation": "Denna miljö är inte rapphönans huvudsakliga häckningsmiljö."
+      },
+      {
+        "text": "Högt kalfjäll med blockterräng",
+        "explanation": "Rapphönan är inte en typisk fjällfågel."
+      },
+      {
+        "text": "Öppet jordbrukslandskap",
+        "explanation": "Rapphönan är en fälthöna som hör hemma i jordbrukslandskapet."
+      },
+      {
+        "text": "Gammal barrskog med blåbärsris",
+        "explanation": "Den skogsmiljön är mer typisk för skogshöns."
+      }
+    ],
+    "answer": 2,
+    "ref": "https://jagareforbundet.se/vilt/vilt-vetande2/artpresentation/faglar/rapphona/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q060",
+    "topic": "Fåglar",
+    "subcategory": "Fälthöns",
+    "difficulty": 2,
+    "question": "Vilket kännetecken skiljer ofta en fasanhöna från en rapphöna i fält?",
+    "options": [
+      {
+        "text": "Fasanhönan har mycket kortare stjärt än rapphönan",
+        "explanation": "Fasanhönan har tvärtom betydligt längre stjärt."
+      },
+      {
+        "text": "Fasanhönan är klart större och har betydligt längre stjärt",
+        "explanation": "Fasanhönan är påtagligt större och mer långstjärtad än rapphönan."
+      },
+      {
+        "text": "Fasanhönan har alltid helt vit undersida",
+        "explanation": "Fasanhönan har spräcklig bruntonad dräkt, inte helvit undersida."
+      },
+      {
+        "text": "Fasanhönan har samma kroppsform och storlek som rapphönan",
+        "explanation": "Fasanhönan är betydligt större och mer långsträckt."
+      }
+    ],
+    "answer": 1,
+    "ref": "https://jagareforbundet.se/vilt/vilt-vetande2/artpresentation/faglar/rapphona/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q061",
+    "topic": "Fåglar",
+    "subcategory": "Gäss",
+    "difficulty": 2,
+    "question": "Vilken kombination av drag är särskilt karakteristisk för fjällgås jämfört med bläsgås?",
+    "options": [
+      {
+        "text": "Gul ögonring och relativt kort näbb",
+        "explanation": "Fjällgåsen har en gul ögonring och relativt kort näbb jämfört med bläsgås."
+      },
+      {
+        "text": "Orange ögonring och bred gul näbb",
+        "explanation": "Fjällgåsens karakteristiska ögonring är gul, inte orange."
+      },
+      {
+        "text": "Mörk ögonring och mycket lång näbb",
+        "explanation": "Det stämmer inte med fjällgåsens kännetecken."
+      },
+      {
+        "text": "Helt vit kind och svart hals",
+        "explanation": "Detta påminner mer om vitkindad gås."
+      }
+    ],
+    "answer": 0,
+    "ref": "https://jagareforbundet.se/viltarter/viltarter-faglar/fjallgas/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q062",
+    "topic": "Klövvilt",
+    "subcategory": "Artkännetecken",
+    "difficulty": 2,
+    "question": "Vilken teckning bildas ofta på dovhjortens akterspegel genom svansens svarta ovansida?",
+    "options": [
+      {
+        "text": "En helt vit rumpa utan mörka detaljer",
+        "explanation": "Dovhjortens svans har normalt svart ovansida."
+      },
+      {
+        "text": "Två tydliga vita lodräta band utan mörk svans",
+        "explanation": "Det karakteristiska kännetecknet innefattar den mörka svansen."
+      },
+      {
+        "text": "Ett svart tvärband över båda låren",
+        "explanation": "Det är inte dovhjortens klassiska akterspegelteckning."
+      },
+      {
+        "text": "En svart M-liknande teckning",
+        "explanation": "Dovhjortens relativt långa mörka svans tillsammans med rumpans färgfält kan ge ett svart M."
+      }
+    ],
+    "answer": 3,
+    "ref": "https://jagareforbundet.se/viltarter/daggdjur-hela-listan/dovhjort/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q063",
+    "topic": "Klövvilt",
+    "subcategory": "Beteende",
+    "difficulty": 2,
+    "question": "Hur fördelar sig dovhjortshanar och -honor ofta under stora delar av året utanför brunsten?",
+    "options": [
+      {
+        "text": "De samlas alltid i blandade grupper med lika många av varje kön",
+        "explanation": "Könssegregering är typisk utanför brunsten."
+      },
+      {
+        "text": "Endast kalvar bildar flockar; vuxna är alltid ensamma",
+        "explanation": "Dovhjortar är tydligt flocklevande, även vuxna."
+      },
+      {
+        "text": "De håller ofta till i skilda grupper och områden",
+        "explanation": "Hindflockar och handjur vistas ofta åtskilda under stora delar av året."
+      },
+      {
+        "text": "De bildar normalt permanenta par",
+        "explanation": "Dovhjort lever inte normalt i livslånga par."
+      }
+    ],
+    "answer": 2,
+    "ref": "https://jagareforbundet.se/viltarter/daggdjur-hela-listan/dovhjort/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q064",
+    "topic": "Klövvilt",
+    "subcategory": "Horn",
+    "difficulty": 2,
+    "question": "Vilken typ av horn har en myskoxe?",
+    "options": [
+      {
+        "text": "Benhorn som fälls varje vinter",
+        "explanation": "Årlig hornfällning hör till hjortdjur, inte myskoxe."
+      },
+      {
+        "text": "Benhorn täckta av bast som fejas inför brunsten",
+        "explanation": "Bastklädda benhorn är typiskt för hjortdjur, inte myskoxe."
+      },
+      {
+        "text": "Tillfälliga horn som enbart utvecklas hos hanar",
+        "explanation": "Även honor hos slidhornsdjur kan bära horn, och myskoxens horn är permanenta."
+      },
+      {
+        "text": "Permanenta slidhorn som sitter kvar hela livet",
+        "explanation": "Myskoxen är slidhornsdjur och fäller inte horn årligen som hjortdjur."
+      }
+    ],
+    "answer": 3,
+    "ref": "https://jagareforbundet.se/viltarter/daggdjur-hela-listan/myskoxe/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q065",
+    "topic": "Klövvilt",
+    "subcategory": "Fortplantning",
+    "difficulty": 3,
+    "question": "Hur ofta föder en myskoxko vanligtvis en kalv?",
+    "options": [
+      {
+        "text": "Vart fjärde till femte år",
+        "explanation": "Normalt föder kon oftare än vart fjärde år."
+      },
+      {
+        "text": "Ungefär vartannat år",
+        "explanation": "Myskoxen får vanligen en kalv ungefär vartannat år."
+      },
+      {
+        "text": "Två gånger om året",
+        "explanation": "Myskoxens dräktighet och resursbehov tillåter inte två normala kullar per år."
+      },
+      {
+        "text": "Varje år med tvillingar som norm",
+        "explanation": "Tvillingar är inte det vanliga; kon får vanligen en kalv vartannat år."
+      }
+    ],
+    "answer": 1,
+    "ref": "https://jagareforbundet.se/viltarter/daggdjur-hela-listan/myskoxe/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q066",
+    "topic": "Övriga däggdjur",
+    "subcategory": "Sälar",
+    "difficulty": 2,
+    "question": "Vilket påstående om gråsälens kut är korrekt direkt efter födseln?",
+    "options": [
+      {
+        "text": "Den föds normalt med en svart tät vuxenpäls",
+        "explanation": "Kuten föds med vit embryonalpäls, inte svart vuxenpäls."
+      },
+      {
+        "text": "Den har en vit päls som inte är vattenavstötande",
+        "explanation": "Gråsälens nyfödda kut har en vit embryonalpäls som inte är vattenavstötande."
+      },
+      {
+        "text": "Den har redan helt vattenavstötande vuxenpäls",
+        "explanation": "Den vattenavstötande pälsen utvecklas först efter pälsbytet."
+      },
+      {
+        "text": "Den saknar päls och värms främst genom simning",
+        "explanation": "Kuten är pälsbeklädd och tillbringar första tiden på land eller is."
+      }
+    ],
+    "answer": 1,
+    "ref": "https://jagareforbundet.se/viltarter/daggdjur-hela-listan/grasal/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q067",
+    "topic": "Övriga däggdjur",
+    "subcategory": "Sälar",
+    "difficulty": 2,
+    "question": "Vilken beskrivning av gråsälens huvudprofil är typisk jämfört med knubbsälens?",
+    "options": [
+      {
+        "text": "Lång nos och nästan rak profil från låg panna",
+        "explanation": "Gråsälens relativt raka profil och långa nos skiljer den från knubbsälens mer konkava profil."
+      },
+      {
+        "text": "Kort nos och tydligt konkav profil",
+        "explanation": "Detta är mer typiskt för knubbsäl och vikaresäl."
+      },
+      {
+        "text": "Helt tillplattad nos utan tydlig huvudprofil",
+        "explanation": "Gråsälens huvud har en tydligt igenkännbar profil."
+      },
+      {
+        "text": "Kraftigt uppåtböjd nosspets och hög panna hos alla individer",
+        "explanation": "Äldre hanar kan ha konvex nosrygg men den generella formen är relativt rak."
+      }
+    ],
+    "answer": 0,
+    "ref": "https://jagareforbundet.se/viltarter/daggdjur-hela-listan/grasal/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q068",
+    "topic": "Övriga däggdjur",
+    "subcategory": "Mårddjur",
+    "difficulty": 2,
+    "question": "Vilken förklaring beskriver hermelinens långa tid mellan parning och ungarnas födelse?",
+    "options": [
+      {
+        "text": "Fosterutvecklingen är fördröjd efter befruktningen",
+        "explanation": "Hermelinen parar sig sommartid men utvecklingen fördröjs och ungarna föds nästa vår."
+      },
+      {
+        "text": "Honan lagrar obefruktade ägg utan parning",
+        "explanation": "Hermelinen parar sig under sommaren; det är utvecklingen som senare fördröjs."
+      },
+      {
+        "text": "Hanen förblir hos honan och befruktar henne först på våren",
+        "explanation": "Befruktningen sker tidigare, inte först vid vårens födselperiod."
+      },
+      {
+        "text": "Fostret växer i samma takt under nästan ett helt år",
+        "explanation": "Det sker ett vilostadium och inte oavbruten fosterutveckling."
+      }
+    ],
+    "answer": 0,
+    "ref": "https://jagareforbundet.se/viltarter/daggdjur-hela-listan/hermelin/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q069",
+    "topic": "Övriga däggdjur",
+    "subcategory": "Mårddjur",
+    "difficulty": 2,
+    "question": "Vad dominerar ofta hermelinens föda i svenska miljöer?",
+    "options": [
+      {
+        "text": "Stora klövdjur som jagas i flock",
+        "explanation": "Hermelinen är ett litet ensamlevande rovdjur."
+      },
+      {
+        "text": "Fisk som fångas genom dykning",
+        "explanation": "Det är mer typiskt för vattenanpassade rovdjur, som utter och mink."
+      },
+      {
+        "text": "Smågnagare som sorkar och möss",
+        "explanation": "Hermelinen äter främst smågnagare, bland annat möss, sorkar och lämlar."
+      },
+      {
+        "text": "Frön, nötter och örter",
+        "explanation": "Hermelinen är rovdjur och lever främst av animalisk föda."
+      }
+    ],
+    "answer": 2,
+    "ref": "https://jagareforbundet.se/viltarter/daggdjur-hela-listan/hermelin/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q070",
+    "topic": "Kulgevär och ammunition",
+    "subcategory": "Blyfritt",
+    "difficulty": 2,
+    "question": "Vilket påstående beskriver bäst varför blyfria kopparkulor kan minska blyexponeringen från viltkött?",
+    "options": [
+      {
+        "text": "De ger alltid mindre köttskada oavsett kulkonstruktion",
+        "explanation": "Skottverkan och köttskada beror även på hastighet, konstruktion och träffläge."
+      },
+      {
+        "text": "De gör att köttet blir genomgående steriliserat av högre värme",
+        "explanation": "Ammunition steriliserar inte viltkött."
+      },
+      {
+        "text": "De omvandlar eventuellt bly från tidigare skott till ofarlig koppar",
+        "explanation": "En kula kan inte förändra tungmetaller från tidigare skott på detta sätt."
+      },
+      {
+        "text": "De kan minska spridningen av blyfragment i köttet eftersom de saknar bly",
+        "explanation": "Blyfria kulor tillför inget ammunitionsbly till köttet och fragmenterar ofta mindre."
+      }
+    ],
+    "answer": 3,
+    "ref": "https://www.naturvardsverket.se/vagledning-och-stod/jakt-och-vilt/jaga-blyfritt-med-kula/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q071",
+    "topic": "Kulgevär och ammunition",
+    "subcategory": "Blyfritt",
+    "difficulty": 2,
+    "question": "Vad gäller för expansionskravet när blyfri ammunition ska uppfylla klass 1?",
+    "options": [
+      {
+        "text": "Kulan behöver bara expandera om vikten överstiger 10 gram",
+        "explanation": "Kravet beror inte på att kulvikten överstiger 10 gram."
+      },
+      {
+        "text": "Expansionskravet gäller endast konventionella blykulor",
+        "explanation": "Även blyfria klass 1-kulor måste vara expanderande."
+      },
+      {
+        "text": "Kulan måste vara helmantlad och oexpanderande",
+        "explanation": "Det är motsatsen till expansionskravet för klass 1."
+      },
+      {
+        "text": "Kulan ska vara konstruerad för att expandera",
+        "explanation": "Expansionskravet för klass 1 gäller oavsett om kulan innehåller bly eller inte."
+      }
+    ],
+    "answer": 3,
+    "ref": "https://www.naturvardsverket.se/vagledning-och-stod/jakt-och-vilt/jaga-blyfritt-med-kula/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q072",
+    "topic": "Kulgevär och ammunition",
+    "subcategory": "Blyfritt",
+    "difficulty": 2,
+    "question": "Varför väljer man ofta en lättare blyfri kula med högre hastighet än motsvarande blykula?",
+    "options": [
+      {
+        "text": "Blyfria kulor kan inte expandera vid lägre hastighet",
+        "explanation": "Det är för kategoriskt; expansion beror på den specifika kulans konstruktion."
+      },
+      {
+        "text": "Det kan ge god skottverkan och expansion trots lägre kulvikt",
+        "explanation": "Naturvårdsverkets vägledning beskriver att lägre kulvikt ofta kombineras med högre fart för blyfria kulor."
+      },
+      {
+        "text": "Den lägre vikten gör att anslagsenergin alltid ökar",
+        "explanation": "Energin beror på både massa och hastighet, inte enbart på minskad vikt."
+      },
+      {
+        "text": "Den lättare kulan behöver ingen stabiliserande rotation",
+        "explanation": "Även blyfria kulor behöver stabiliseras av räfflingen."
+      }
+    ],
+    "answer": 1,
+    "ref": "https://www.naturvardsverket.se/vagledning-och-stod/jakt-och-vilt/jaga-blyfritt-med-kula/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q073",
+    "topic": "Jaktlagstiftning",
+    "subcategory": "Jägarexamen",
+    "difficulty": 1,
+    "question": "Hur många frågor innehåller Naturvårdsverkets ordinarie teoretiska jägarexamensprov?",
+    "options": [
+      {
+        "text": "100",
+        "explanation": "Det aktuella teoriprovet innehåller 70 frågor, inte 100."
+      },
+      {
+        "text": "60",
+        "explanation": "60 är antalet rätt som krävs för godkänt, inte antalet frågor."
+      },
+      {
+        "text": "70",
+        "explanation": "Det ordinarie digitala teoriprovet innehåller 70 frågor."
+      },
+      {
+        "text": "80",
+        "explanation": "Det aktuella teoriprovet innehåller 70 frågor, inte 80."
+      }
+    ],
+    "answer": 2,
+    "ref": "https://www.naturvardsverket.se/amnesomraden/jakt-och-vilt/for-jagare/teoriprov-jagarexamen/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q074",
+    "topic": "Jaktlagstiftning",
+    "subcategory": "Jägarexamen",
+    "difficulty": 2,
+    "question": "Vad gäller för antalet rätta alternativ i en enskild fråga i Naturvårdsverkets teoriprov?",
+    "options": [
+      {
+        "text": "Ett av fyra svarsalternativ är rätt",
+        "explanation": "Naturvårdsverkets provfrågor har fyra alternativ och exakt ett korrekt."
+      },
+      {
+        "text": "Alla alternativ kan vara rätt i samma fråga",
+        "explanation": "Det officiella teoriprovet använder ett korrekt alternativ per fråga."
+      },
+      {
+        "text": "Två alternativ är rätt och båda måste markeras",
+        "explanation": "Det officiella provet har ett korrekt alternativ per fråga."
+      },
+      {
+        "text": "Antalet rätta alternativ kan variera mellan ett och fyra",
+        "explanation": "Naturvårdsverket anger att exakt ett av fyra svarsalternativ är korrekt."
+      }
+    ],
+    "answer": 0,
+    "ref": "https://www.naturvardsverket.se/amnesomraden/jakt-och-vilt/for-jagare/teoriprov-jagarexamen/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  },
+  {
+    "id": "Q075",
+    "topic": "Fåglar",
+    "subcategory": "Vadare",
+    "difficulty": 2,
+    "question": "Hur många ägg innehåller en normal fullständig kull hos morkullan?",
+    "options": [
+      {
+        "text": "Fyra",
+        "explanation": "Morkullan lägger vanligen fyra ägg; tre eller fem är undantag."
+      },
+      {
+        "text": "Fem",
+        "explanation": "Fem ägg är ett undantag snarare än den vanliga kullstorleken."
+      },
+      {
+        "text": "Sex",
+        "explanation": "Sex ägg är inte normal kullstorlek hos morkulla."
+      },
+      {
+        "text": "Tre",
+        "explanation": "Tre ägg kan förekomma men fyra är det normala."
+      }
+    ],
+    "answer": 0,
+    "ref": "https://jagareforbundet.se/vilt/vilt-vetande2/artpresentation/faglar/morkulla/",
+    "verification": "källkontrollerad",
+    "source_date": "2026-10-23"
+  }
+]

@@ -11,1275 +11,39 @@
   *{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}button,input,select{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.48}h1,h2,h3,p{margin-top:0}h1,h2{letter-spacing:-.03em}h1{font-size:clamp(1.9rem,5vw,2.65rem);line-height:1.15}h2{font-size:1.45rem;line-height:1.2}.small{font-size:.88rem}.tiny{font-size:.76rem}.muted{color:var(--muted)}.wrap{max-width:860px;padding:0 18px;margin:auto}.top{background:var(--forest);color:white}.top-inner{max-width:860px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px}.brand{color:white;font-size:1.18rem;text-decoration:none;font-weight:760;letter-spacing:-.025em}.brand em{font-style:normal;color:#a2d6b8}.top-right{color:#b9d5c7;font-size:.78rem}.main{padding:28px 0 70px}.eyebrow{font-weight:760;color:var(--forest2);font-size:.74rem;letter-spacing:.10em;text-transform:uppercase;margin-bottom:10px}.lead{color:var(--muted);font-size:1.03rem;max-width:54ch}.card{background:var(--paper);border:1px solid var(--stroke);border-radius:17px;padding:23px;box-shadow:var(--shadow)}.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.tile{border:1px solid var(--stroke);border-radius:15px;background:var(--paper);padding:20px;text-align:left;color:var(--ink);transition:transform .12s,border-color .12s;box-shadow:var(--shadow)}.tile:hover,.tile:focus-visible{border-color:var(--forest2);transform:translateY(-1px)}.tile .symbol{font-size:1.55rem;color:var(--forest);line-height:1;margin-bottom:13px;font-weight:bold}.tile strong{display:block;font-size:1.08rem;margin-bottom:5px}.tile .muted{display:block;font-size:.88rem}.stack{display:flex;flex-direction:column;gap:17px}.gridstats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.metric{background:#edf3ec;padding:14px;border-radius:12px}.metric strong{font-size:1.35rem;display:block;white-space:nowrap;color:var(--forest)}.metric span{font-size:.78rem;color:var(--muted)}.button{background:var(--forest);border:1px solid var(--forest);border-radius:10px;padding:12px 18px;color:#fff;font-weight:700;min-height:46px}.button:hover:not(:disabled){background:#225549}.button.alt{background:var(--paper);border-color:#aec2b6;color:var(--forest)}.button.alt:hover:not(:disabled){background:var(--mint)}.button.ghost{background:transparent;border-color:transparent;color:var(--forest)}.button.danger{background:#fff;border-color:#cda29b;color:var(--danger)}.buttons{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.buttons .grow{flex-grow:1}.field{display:flex;flex-direction:column;gap:6px;flex:1;min-width:150px}.field label{font-weight:680;font-size:.9rem}select{width:100%;background:white;border:1px solid #bfcec3;border-radius:10px;padding:12px;color:var(--ink);min-height:46px}.formrow{display:flex;gap:12px;flex-wrap:wrap}.rule{border:0;border-top:1px solid var(--stroke);margin:20px 0}.pill{border-radius:50px;background:#e8eee7;padding:5px 11px;color:#456254;font-size:.79rem;font-weight:650;display:inline-block}.pill.warn{color:#7f581b;background:#f7eacd}.pill.exam{color:#fff;background:#356b5b}.questionTitle{font-size:clamp(1.21rem,3vw,1.52rem);font-weight:740;line-height:1.37;letter-spacing:-.018em;margin:15px 0 20px}.choice{width:100%;display:flex;align-items:flex-start;gap:12px;background:#fff;border:1.5px solid #d6e0d7;border-radius:12px;padding:13px 14px;text-align:left;margin-bottom:10px;color:var(--ink);line-height:1.42}.choice:hover:not(:disabled){border-color:#629780}.choice.selected{background:#e7f2eb;border-color:var(--forest2)}.choice.correct{background:#e0f1e6;border-color:#65a584}.choice.wrong{background:var(--redbg);border-color:#cc8b81}.choice .letter{flex:0 0 25px;height:26px;border-radius:7px;background:#eef2ed;text-align:center;line-height:26px;font-size:.84rem;font-weight:760}.choice.correct .letter{background:#b3dac2}.choice.wrong .letter{background:#f2c9c1}.choice:disabled{opacity:1;cursor:default}.choice:focus-visible,.button:focus-visible,.tile:focus-visible{outline:3px solid #bd9b4c;outline-offset:2px}.feedback{border-radius:12px;border:1px solid var(--stroke);padding:15px;background:#f8faf6;margin-top:17px}.feedback strong{display:block}.feedback article{padding:9px 0;border-bottom:1px solid var(--stroke);font-size:.88rem}.feedback article:last-child{border-bottom:0}.feedback article b{font-weight:760}.feedback .good{color:var(--success)}.feedback .bad{color:var(--danger)}.progressbar{height:8px;background:#e2e8df;border-radius:50px;overflow:hidden;margin:13px 0 17px}.progressbar div{height:100%;background:var(--forest2);border-radius:50px;transition:width .15s}.qtop{display:flex;justify-content:space-between;gap:10px;align-items:center}.qflag{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:.86rem;cursor:pointer}.qflag input{width:17px;height:17px;accent-color:var(--forest)}.numbernav{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:6px}.numbtn{border:1px solid #cad8cc;background:white;border-radius:8px;height:36px;font-weight:700;color:var(--ink)}.numbtn.answered{background:#dcefe4;border-color:#76a98a}.numbtn.active{outline:2px solid var(--forest);outline-offset:0}.numbtn.flagged:after{content:'•';color:#a67923;margin-left:2px}.result-item{border:1px solid var(--stroke);border-radius:12px;background:white;margin-bottom:9px;overflow:hidden}.result-item summary{cursor:pointer;padding:15px;font-weight:680;display:flex;align-items:flex-start;gap:10px;list-style:none}.result-item summary::-webkit-details-marker{display:none}.result-item summary .sign{flex:0 0 22px;text-align:center}.result-item .inside{padding:0 15px 16px}.category-row{display:flex;gap:9px;align-items:center;justify-content:space-between;border-bottom:1px solid var(--stroke);padding:10px 0}.category-row:last-child{border-bottom:0}.mini-bar{height:6px;background:#e4ece5;border-radius:50px;overflow:hidden;margin-top:5px}.mini-bar div{height:100%;background:#4c9273}.footer{border-top:1px solid var(--stroke);padding:22px 0 42px;color:#688074;font-size:.78rem}.footer a{color:var(--forest2)}.disclaimer{background:#fbf0dc;border:1px solid #eddfbe;color:#6d542d;border-radius:12px;padding:12px 15px;font-size:.85rem}.hidden{display:none!important}.resultscore{font-size:3rem;font-weight:800;letter-spacing:-.06em;line-height:1;color:var(--forest)}
   @media(max-width:570px){.tiles{grid-template-columns:1fr}.gridstats{gap:7px}.metric{padding:12px 9px}.metric strong{font-size:1.18rem}.card{padding:17px}.top-inner{padding:15px 18px}.numbernav{grid-template-columns:repeat(5,minmax(0,1fr))}.main{padding-top:20px}.button{padding:11px 13px}.buttons .mobilewide{width:100%}}
   @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+  /* Valfria bilder i frågor och svar */
+  .quiz-figure{margin:0 0 19px;max-width:100%}
+  .quiz-image{display:block;width:100%;height:auto;max-height:420px;object-fit:contain;background:#edf2ed;border:1px solid var(--stroke);border-radius:12px}
+  .quiz-image-link{display:block;text-decoration:none;color:inherit}
+  .quiz-caption{margin-top:7px;color:var(--muted);font-size:.79rem;line-height:1.4}
+  .quiz-caption a{color:var(--forest2);text-decoration:underline;text-underline-offset:2px}
+  .option-body{display:flex;flex-direction:column;gap:7px;min-width:0;width:100%}
+  .option-image{width:100%;max-width:300px;max-height:195px;object-fit:contain;border-radius:8px;background:#edf2ed;border:1px solid var(--stroke)}
+  .option-credit{font-size:.73rem;color:var(--muted);line-height:1.35}
+  .editor-info{background:#eef4ef;border:1px solid #d1e0d3;padding:13px;border-radius:11px;font-size:.88rem}
+  .editor-preview img{max-height:270px}
+  input[type=text],input[type=url]{width:100%;background:white;border:1px solid #bfcec3;border-radius:10px;padding:12px;color:var(--ink);min-height:46px}
+  input[type=file]{width:100%;max-width:100%}
+  @media(max-width:570px){.quiz-image{max-height:330px}.option-image{max-height:175px}}
   </style>
 </head>
 <body>
-  <header class="top"><div class="top-inner"><a href="#" class="brand" id="logo">JÄGAR<em>PROVET</em></a><span class="top-right" id="topBadge">50 övningsfrågor · Beta</span></div></header>
+  <header class="top"><div class="top-inner"><a href="#" class="brand" id="logo">JÄGAR<em>PROVET</em></a><span class="top-right" id="topBadge">Läser in frågor …</span></div></header>
   <main class="wrap main" id="app" aria-live="polite"></main>
-  <footer class="footer"><div class="wrap">En fristående, inofficiell övningsapp. Frågorna är egenförfattade och ersätter inte uppdaterad kurslitteratur eller myndighetsregler. Resultat sparas lokalt i din webbläsare. <a href="https://www.naturvardsverket.se/amnesomraden/jakt-och-vilt/for-jagare/teoriprov-jagarexamen/" target="_blank" rel="noopener noreferrer">Om det officiella provet</a>.</div></footer>
+  <footer class="footer"><div class="wrap">En fristående, inofficiell övningsapp. Frågorna är egenförfattade och ersätter inte uppdaterad kurslitteratur eller myndighetsregler. Resultat sparas lokalt i din webbläsare. Bildfrågor kan använda egna filer eller externa bildadresser. <a href="https://www.naturvardsverket.se/amnesomraden/jakt-och-vilt/for-jagare/teoriprov-jagarexamen/" target="_blank" rel="noopener noreferrer">Om det officiella provet</a>.</div></footer>
   <script>
-// 50 egenförfattade övningsfrågor, demonstrationsbank.
-window.QUESTIONS = [
-  {
-    "id": "Q001",
-    "topic": "Klövvilt",
-    "question": "Vilket av följande svenska klövvilt är inte idisslare?",
-    "options": [
-      {
-        "text": "Vildsvin",
-        "explanation": "Vildsvin är ett svindjur med enkel magsäck och idisslar inte."
-      },
-      {
-        "text": "Älg",
-        "explanation": "Älgen är ett hjortdjur som idisslar."
-      },
-      {
-        "text": "Dovhjort",
-        "explanation": "Dovhjort hör till hjortdjuren och idisslar."
-      },
-      {
-        "text": "Rådjur",
-        "explanation": "Rådjur idisslar och har en flerdelad mage."
-      }
-    ],
-    "answer": 0,
-    "ref": null
-  },
-  {
-    "id": "Q002",
-    "topic": "Klövvilt",
-    "question": "Vilket hjortdjur brunstar normalt tidigast under året i Sverige?",
-    "options": [
-      {
-        "text": "Kronhjort",
-        "explanation": "Kronhjortens brunst infaller främst under september."
-      },
-      {
-        "text": "Dovhjort",
-        "explanation": "Dovhjortens brunst infaller främst under oktober."
-      },
-      {
-        "text": "Älg",
-        "explanation": "Älgens brunst sker huvudsakligen under september–oktober."
-      },
-      {
-        "text": "Rådjur",
-        "explanation": "Rådjur brunstar i regel under juli–augusti, före de övriga alternativen."
-      }
-    ],
-    "answer": 3,
-    "ref": null
-  },
-  {
-    "id": "Q003",
-    "topic": "Klövvilt",
-    "question": "Vilket påstående om horn hos en mufflonbagge är riktigt?",
-    "options": [
-      {
-        "text": "De består av slidhorn som inte fälls årligen",
-        "explanation": "Mufflonbaggen har permanenta slidhorn som växer under livet."
-      },
-      {
-        "text": "De är täckta av bast som fejas bort varje sensommar",
-        "explanation": "Basthud och fejning hör till hjortdjurens benhorn."
-      },
-      {
-        "text": "De fälls och växer ut på nytt varje vår",
-        "explanation": "Årlig hornfällning kännetecknar hjortdjurens benhorn, inte mufflonfårens slidhorn."
-      },
-      {
-        "text": "De utvecklas bara under brunsten",
-        "explanation": "Mufflonbaggen behåller sina horn även utanför brunsten."
-      }
-    ],
-    "answer": 0,
-    "ref": null
-  },
-  {
-    "id": "Q004",
-    "topic": "Klövvilt",
-    "question": "När fäller råbocken normalt sina horn?",
-    "options": [
-      {
-        "text": "Under högsommar",
-        "explanation": "Under högsommaren bär bocken färdiga horn."
-      },
-      {
-        "text": "Under höst och förvinter",
-        "explanation": "Hornfällning sker normalt under oktober–december."
-      },
-      {
-        "text": "Under tidig vår",
-        "explanation": "På våren har råbocken vanligtvis redan nya horn på tillväxt."
-      },
-      {
-        "text": "I samband med brunsten i augusti",
-        "explanation": "Under brunsten är hornen normalt redan fejade och färdiga."
-      }
-    ],
-    "answer": 1,
-    "ref": null
-  },
-  {
-    "id": "Q005",
-    "topic": "Klövvilt",
-    "question": "Vad är mest typiskt för älgens föda i svenska skogar under vintern?",
-    "options": [
-      {
-        "text": "Främst tallskott, kvistar och bark från vedartade växter",
-        "explanation": "Älgen är en kvistbetare och äter bland annat tallskott och lövträdsgrenar vintertid."
-      },
-      {
-        "text": "Främst marklavar som grävs fram ur snön",
-        "explanation": "Marklavar är viktig vinterföda för renar, inte för älg."
-      },
-      {
-        "text": "Främst vattenväxter på sjöbottnar",
-        "explanation": "Vattenväxter kan ätas under växtsäsongen men är inte normal huvudföda vintertid."
-      },
-      {
-        "text": "Främst insektslarver under bark",
-        "explanation": "Insektslarver utgör ingen viktig vinterföda för älg."
-      }
-    ],
-    "answer": 0,
-    "ref": null
-  },
-  {
-    "id": "Q006",
-    "topic": "Rovdjur",
-    "question": "När föds brunbjörnens ungar normalt i Sverige?",
-    "options": [
-      {
-        "text": "I maj efter att honan lämnat idet",
-        "explanation": "Ungarna föds vanligen innan honan lämnar idet på våren."
-      },
-      {
-        "text": "Under september före idet",
-        "explanation": "Höstfödslar är inte björnens normala reproduktionsmönster."
-      },
-      {
-        "text": "Under januari–februari i idet",
-        "explanation": "Björnhonan föder normalt mycket små ungar mitt under vintern i idet."
-      },
-      {
-        "text": "Under november strax efter att idet påbörjats",
-        "explanation": "November är normalt för tidigt för ungarnas födelse."
-      }
-    ],
-    "answer": 2,
-    "ref": null
-  },
-  {
-    "id": "Q007",
-    "topic": "Rovdjur",
-    "question": "Vilket kännetecken skiljer typiskt ett lodjursspår från ett vargspår?",
-    "options": [
-      {
-        "text": "Lodjuret lämnar alltid ett släpspår av svansen",
-        "explanation": "Lodjurets korta svans ger inte något regelbundet släpspår."
-      },
-      {
-        "text": "Lodjuret lämnar oftast inga tydliga klomärken",
-        "explanation": "Lodjurets indragbara klor lämnar ofta inga tydliga klomärken i vanliga spår."
-      },
-      {
-        "text": "Lodjuret har vanligen fem tydliga tåavtryck",
-        "explanation": "Lodjurets tassavtryck visar normalt fyra tår, inte fem tydliga framåtriktade tåavtryck."
-      },
-      {
-        "text": "Lodjuret har längre och smalare avtryck än vargen",
-        "explanation": "Tassform och storlek varierar; detta är inte ett entydigt typkännetecken."
-      }
-    ],
-    "answer": 1,
-    "ref": null
-  },
-  {
-    "id": "Q008",
-    "topic": "Rovdjur",
-    "question": "Vilket byte är särskilt viktigt för lodjur i stora delar av södra och mellersta Sverige?",
-    "options": [
-      {
-        "text": "Rödräv",
-        "explanation": "Rödräv kan dödas av lodjur, men utgör inte dess viktigaste bytesdjur."
-      },
-      {
-        "text": "Grävling",
-        "explanation": "Grävling kan förekomma som byte men är inte det centrala större bytet."
-      },
-      {
-        "text": "Rådjur",
-        "explanation": "Rådjur är ett viktigt bytesdjur för lodjur i stora delar av Sverige."
-      },
-      {
-        "text": "Bäver",
-        "explanation": "Bäver kan förekomma men är inte det typiska huvudbytet i södra Sverige."
-      }
-    ],
-    "answer": 2,
-    "ref": null
-  },
-  {
-    "id": "Q009",
-    "topic": "Rovdjur",
-    "question": "Vilken av arterna är ett mårddjur?",
-    "options": [
-      {
-        "text": "Varg",
-        "explanation": "Varg hör till hunddjuren."
-      },
-      {
-        "text": "Fjällräv",
-        "explanation": "Fjällräv hör till hunddjuren."
-      },
-      {
-        "text": "Lodjur",
-        "explanation": "Lodjur hör till kattdjuren."
-      },
-      {
-        "text": "Järv",
-        "explanation": "Järv hör till familjen mårddjur."
-      }
-    ],
-    "answer": 3,
-    "ref": null
-  },
-  {
-    "id": "Q010",
-    "topic": "Rovdjur",
-    "question": "Vilket påstående om mårdhunden i Sverige stämmer bäst?",
-    "options": [
-      {
-        "text": "Den är ett inhemskt hunddjur som idisslar",
-        "explanation": "Mårdhunden är inte inhemsk och idisslar inte."
-      },
-      {
-        "text": "Den är en underart av rödräv som byter färg vintertid",
-        "explanation": "Mårdhunden är en egen art, inte en underart av rödräv."
-      },
-      {
-        "text": "Den är ett mårddjur som lever huvudsakligen av fisk",
-        "explanation": "Mårdhunden tillhör hunddjuren och har brett födoval."
-      },
-      {
-        "text": "Den är en främmande hunddjursart som kan ha vintervila",
-        "explanation": "Mårdhunden kommer ursprungligen från östra Asien och kan minska aktiviteten kraftigt under kalla vintrar."
-      }
-    ],
-    "answer": 3,
-    "ref": null
-  },
-  {
-    "id": "Q011",
-    "topic": "Fåglar",
-    "question": "Vilken andart häckar ofta i trädhålor eller uppsatta holkar?",
-    "options": [
-      {
-        "text": "Kricka",
-        "explanation": "Kricka placerar vanligen boet på marken."
-      },
-      {
-        "text": "Knipa",
-        "explanation": "Knipa är en hålhäckande and som gärna använder holkar."
-      },
-      {
-        "text": "Bläsand",
-        "explanation": "Bläsand bygger normalt bo på marken."
-      },
-      {
-        "text": "Gräsand",
-        "explanation": "Gräsand häckar normalt på marken, även om ovanliga boplatser förekommer."
-      }
-    ],
-    "answer": 1,
-    "ref": null
-  },
-  {
-    "id": "Q012",
-    "topic": "Fåglar",
-    "question": "Vilken av dessa fåglar tillhör vadarna?",
-    "options": [
-      {
-        "text": "Rapphöna",
-        "explanation": "Rapphöna är en hönsfågel."
-      },
-      {
-        "text": "Morkulla",
-        "explanation": "Morkulla är en snäppa och därmed en vadarfågel."
-      },
-      {
-        "text": "Järpe",
-        "explanation": "Järpe är en skogshöna."
-      },
-      {
-        "text": "Knipa",
-        "explanation": "Knipa är en dykand."
-      }
-    ],
-    "answer": 1,
-    "ref": null
-  },
-  {
-    "id": "Q013",
-    "topic": "Fåglar",
-    "question": "Vad kännetecknar en orrtupps stjärt?",
-    "options": [
-      {
-        "text": "Den är tvärt avskuren som hos järpe",
-        "explanation": "Järpens stjärt har en annan form och teckning."
-      },
-      {
-        "text": "Den har en tydlig vit spets på varje fjäder",
-        "explanation": "Vita spetsar är inte det avgörande kännetecknet för orrtuppens stjärt."
-      },
-      {
-        "text": "Den är lyrformad med böjda yttre stjärtfjädrar",
-        "explanation": "Orrtuppens lyrformade stjärt är ett klassiskt artkännetecken."
-      },
-      {
-        "text": "Den är lång och spetsig som hos fasan",
-        "explanation": "Fasantuppen har en mycket lång, avsmalnande stjärt."
-      }
-    ],
-    "answer": 2,
-    "ref": null
-  },
-  {
-    "id": "Q014",
-    "topic": "Fåglar",
-    "question": "Vilket påstående om gräsandshanens eklipsdräkt är korrekt?",
-    "options": [
-      {
-        "text": "Den är en tillfällig diskret dräkt efter häckningstiden",
-        "explanation": "Hanen får efter häckningen en mer honliknande och diskret dräkt."
-      },
-      {
-        "text": "Den är ett tecken på sjukdom som förstör fjäderpigmentet",
-        "explanation": "Eklipsdräkt är en normal del av ruggningscykeln."
-      },
-      {
-        "text": "Den förekommer endast hos ungfåglar före första flytten",
-        "explanation": "Även vuxna hanar får eklipsdräkt."
-      },
-      {
-        "text": "Den är den färgstarka parningsdräkten under vintern",
-        "explanation": "Den färgstarka praktdräkten är inte eklipsdräkten."
-      }
-    ],
-    "answer": 0,
-    "ref": null
-  },
-  {
-    "id": "Q015",
-    "topic": "Fåglar",
-    "question": "Vilken fågel har som vuxen typiskt ljusa ögon och grå nacke?",
-    "options": [
-      {
-        "text": "Råka",
-        "explanation": "Råkan har annan huvudform och vanligen mörka ögon."
-      },
-      {
-        "text": "Korp",
-        "explanation": "Korpen har mörka ögon och mörk nacke."
-      },
-      {
-        "text": "Kråka",
-        "explanation": "Kråkan har normalt mörka ögon och saknar kajans ljusa nackteckning."
-      },
-      {
-        "text": "Kaja",
-        "explanation": "Kajan känns bland annat igen på ljusa ögon och grå nacke."
-      }
-    ],
-    "answer": 3,
-    "ref": null
-  },
-  {
-    "id": "Q016",
-    "topic": "Övriga däggdjur",
-    "question": "Vilket kännetecken är särskilt användbart för att skilja hermelin från småvessla i vit vinterpäls?",
-    "options": [
-      {
-        "text": "Hermelinens svarta svansspets",
-        "explanation": "Hermelinen behåller normalt svart svansspets även i vinterpäls."
-      },
-      {
-        "text": "Småvesslans svarta öronspetsar",
-        "explanation": "Småvessla har inte svarta öronspetsar som typiskt artkännetecken."
-      },
-      {
-        "text": "Småvesslans grå halsring",
-        "explanation": "En grå halsring är inte ett säkert kännetecken för småvessla."
-      },
-      {
-        "text": "Hermelinens helt vita svans",
-        "explanation": "Hermelinens svans är inte helt vit."
-      }
-    ],
-    "answer": 0,
-    "ref": null
-  },
-  {
-    "id": "Q017",
-    "topic": "Övriga däggdjur",
-    "question": "Vad är en viktig skillnad mellan harungar och vildkaninungar vid födseln?",
-    "options": [
-      {
-        "text": "Harungar föds pälsade med öppna ögon; kaninungar nakna och blinda",
-        "explanation": "Harar har borymmarliknande ungar, medan kaniner får hjälplösa ungar i bo."
-      },
-      {
-        "text": "Båda föds med öppna ögon och päls",
-        "explanation": "Kaninungar föds normalt blinda och utan päls."
-      },
-      {
-        "text": "Båda föds blinda men harungar blir seende tidigare",
-        "explanation": "Harungarna har normalt öppna ögon redan när de föds."
-      },
-      {
-        "text": "Harungar föds nakna men kaninungar pälsade",
-        "explanation": "Det är omvänt: harungar är välutvecklade vid födseln."
-      }
-    ],
-    "answer": 0,
-    "ref": null
-  },
-  {
-    "id": "Q018",
-    "topic": "Övriga däggdjur",
-    "question": "Vilket av följande djur samlar ofta kvistar som vinterförråd under vatten?",
-    "options": [
-      {
-        "text": "Bisam",
-        "explanation": "Bisam äter främst vattenväxter men bygger inte typiskt sådana kvistförråd."
-      },
-      {
-        "text": "Vattensork",
-        "explanation": "Vattensorken har ett annat födoval och är inte känd för stora undervattensförråd av grenar."
-      },
-      {
-        "text": "Bäver",
-        "explanation": "Bävern lagrar grenar i anslutning till hyddan inför vintern."
-      },
-      {
-        "text": "Utter",
-        "explanation": "Uttern är ett fiskätande rovdjur och lagrar inte kvistar som föda."
-      }
-    ],
-    "answer": 2,
-    "ref": null
-  },
-  {
-    "id": "Q019",
-    "topic": "Övriga däggdjur",
-    "question": "Vilken föda är särskilt viktig för utter i svenska vatten?",
-    "options": [
-      {
-        "text": "Bark",
-        "explanation": "Uttern är ett rovdjur och lever inte av bark."
-      },
-      {
-        "text": "Daggmask",
-        "explanation": "Daggmask är typisk föda för bland annat grävling men inte utterns huvudföda."
-      },
-      {
-        "text": "Fisk",
-        "explanation": "Fisken utgör normalt huvuddelen av utterns föda."
-      },
-      {
-        "text": "Bär",
-        "explanation": "Bär utgör inte utterns viktigaste föda."
-      }
-    ],
-    "answer": 2,
-    "ref": null
-  },
-  {
-    "id": "Q020",
-    "topic": "Övriga däggdjur",
-    "question": "Vad beskriver skogsharens vinterpäls bäst?",
-    "options": [
-      {
-        "text": "Den varierar och kan vara gråblå i delar av södra Sverige",
-        "explanation": "I södra Sverige förekommer gråblå vinterform, medan den ofta blir vit i norr."
-      },
-      {
-        "text": "Den är alltid vit i hela Sverige",
-        "explanation": "Vinterpälsens färg varierar geografiskt."
-      },
-      {
-        "text": "Den blir vit hos honor men grå hos hanar",
-        "explanation": "Skillnaden styrs inte av kön på detta sätt."
-      },
-      {
-        "text": "Den är alltid brun som hos fältharen",
-        "explanation": "Skogsharen får ofta vit eller gråblå vinterpäls."
-      }
-    ],
-    "answer": 0,
-    "ref": null
-  },
-  {
-    "id": "Q021",
-    "topic": "Hagelgevär",
-    "question": "Vad anger längdbeteckningen 70 i hagelpatronen 12/70?",
-    "options": [
-      {
-        "text": "Längden på hagelsvärmen vid mynningen",
-        "explanation": "Patronbeteckningen handlar inte om hagelsvärmens längd."
-      },
-      {
-        "text": "Längden på gevärets övergångskona",
-        "explanation": "Övergångskonan är en del av pipans konstruktion."
-      },
-      {
-        "text": "Längden på den avfyrade, utvecklade hylsan i millimeter",
-        "explanation": "Nominell hylslängd anges för hylsan efter att förslutningen öppnats."
-      },
-      {
-        "text": "Längden på den oavfyrade patronen inklusive förslutning",
-        "explanation": "En oavfyrad patron är ofta kortare än sin angivna hylslängd."
-      }
-    ],
-    "answer": 2,
-    "ref": null
-  },
-  {
-    "id": "Q022",
-    "topic": "Hagelgevär",
-    "question": "Vad innebär det att en hagelbock har ejektorer?",
-    "options": [
-      {
-        "text": "Den har automatisk säkring",
-        "explanation": "Säkring och ejektor är olika mekanismer."
-      },
-      {
-        "text": "Den kan avfyra båda piporna samtidigt",
-        "explanation": "Ejektorn påverkar hylshantering, inte avfyringsordning."
-      },
-      {
-        "text": "Den har utbytbara choker",
-        "explanation": "Utbytbara choker är ett separat system."
-      },
-      {
-        "text": "Den kastar ut avfyrade hylsor när den bryts",
-        "explanation": "Ejektorn kastar ut skjutna hylsor när vapnet öppnas."
-      }
-    ],
-    "answer": 3,
-    "ref": null
-  },
-  {
-    "id": "Q023",
-    "topic": "Hagelgevär",
-    "question": "Vad är den normala effekten av kraftigare trångborrning med samma hagelpatron?",
-    "options": [
-      {
-        "text": "Träffbilden blir normalt tätare på ett givet avstånd",
-        "explanation": "Trängre choke koncentrerar normalt hagelsvärmen."
-      },
-      {
-        "text": "Haglen blir tyngre",
-        "explanation": "Choken ändrar inte de enskilda haglens massa."
-      },
-      {
-        "text": "Utgångshastigheten fördubblas",
-        "explanation": "Trångborrning är främst avsedd att påverka spridningen, inte att dubbla hastigheten."
-      },
-      {
-        "text": "Kulan stabiliseras genom rotation",
-        "explanation": "Vanliga hagel är inte en enda kula som stabiliseras genom räffling."
-      }
-    ],
-    "answer": 0,
-    "ref": null
-  },
-  {
-    "id": "Q024",
-    "topic": "Hagelgevär",
-    "question": "Två patroner innehåller samma vikt av blyhagel. Vilken har normalt flest enskilda hagel?",
-    "options": [
-      {
-        "text": "Den med grövre hagel",
-        "explanation": "Grova hagel väger mer styck och blir därför färre vid samma totalvikt."
-      },
-      {
-        "text": "Båda har lika många",
-        "explanation": "Olika hageldiameter ger olika antal vid samma vikt."
-      },
-      {
-        "text": "Den med finare hagel",
-        "explanation": "Finare hagel väger mindre styck och ger fler projektiler vid samma laddningsvikt."
-      },
-      {
-        "text": "Det avgörs enbart av kalibern",
-        "explanation": "Kalibern avgör inte antalet utan hänsyn till hagelstorlek."
-      }
-    ],
-    "answer": 2,
-    "ref": null
-  },
-  {
-    "id": "Q025",
-    "topic": "Hagelgevär",
-    "question": "Vad innebär det att ett hagelgevär har patronläge 12/76?",
-    "options": [
-      {
-        "text": "Det har en pipdiameter på 76 mm",
-        "explanation": "76 anger patronlägeslängden i millimeter, inte pipdiametern."
-      },
-      {
-        "text": "Det är avsett för kulpatroner med 76 mm hylsa",
-        "explanation": "12/76 är en hagelpatronbeteckning, inte kulpatronbeteckning."
-      },
-      {
-        "text": "Det kan normalt använda 12/70 och lämpliga 12/76-patroner",
-        "explanation": "Kortare hylsor av rätt kaliber passar normalt, med övriga tryck- och ammunitionskrav uppfyllda."
-      },
-      {
-        "text": "Det får bara laddas med exakt 76 mm oavfyrade patroner",
-        "explanation": "Hylslängden avser den utvecklade hylsan, och kortare patroner kan normalt användas."
-      }
-    ],
-    "answer": 2,
-    "ref": null
-  },
-  {
-    "id": "Q026",
-    "topic": "Kulgevär och ammunition",
-    "question": "Vad är räfflingens huvudsyfte i ett kulgevär?",
-    "options": [
-      {
-        "text": "Att bromsa kulan för att minska rikoschetter",
-        "explanation": "Räfflingens avsikt är inte att bromsa kulan."
-      },
-      {
-        "text": "Att få kulan att expandera före mynningen",
-        "explanation": "Expansion hos jaktkulor är avsedd att ske i målet."
-      },
-      {
-        "text": "Att tryckutjämna patronhylsan före avfyrning",
-        "explanation": "Patronhylsans tryck påverkas inte på det beskrivna sättet av räfflingen."
-      },
-      {
-        "text": "Att ge kulan rotation och stabilitet under flykten",
-        "explanation": "Räfflingen ger rotation som stabiliserar kulan gyroskopiskt."
-      }
-    ],
-    "answer": 3,
-    "ref": null
-  },
-  {
-    "id": "Q027",
-    "topic": "Kulgevär och ammunition",
-    "question": "Vad står 55 för i kaliberbeteckningen 6,5 × 55?",
-    "options": [
-      {
-        "text": "Kulans längd i mm",
-        "explanation": "Kulans längd varierar med kulmodell."
-      },
-      {
-        "text": "Hylsans nominella längd i mm",
-        "explanation": "Det andra talet i denna metriska beteckning avser hylslängden."
-      },
-      {
-        "text": "Kulans massa i grains",
-        "explanation": "Kulvikten anges separat och varierar mellan laddningar."
-      },
-      {
-        "text": "Patronens totala längd i mm",
-        "explanation": "Patronens totallängd är något annat än hylslängden."
-      }
-    ],
-    "answer": 1,
-    "ref": null
-  },
-  {
-    "id": "Q028",
-    "topic": "Kulgevär och ammunition",
-    "question": "En kula väger 10 g och färdas i 600 m/s. Hur stor är rörelseenergin ungefär?",
-    "options": [
-      {
-        "text": "6 000 J",
-        "explanation": "Att multiplicera gram med hastighet ger inte rörelseenergi i joule."
-      },
-      {
-        "text": "3 600 J",
-        "explanation": "Detta utelämnar faktorn ½."
-      },
-      {
-        "text": "900 J",
-        "explanation": "Detta är hälften av det korrekta resultatet."
-      },
-      {
-        "text": "1 800 J",
-        "explanation": "E = ½mv² = 0,5 × 0,010 × 600² = 1 800 joule."
-      }
-    ],
-    "answer": 3,
-    "ref": null
-  },
-  {
-    "id": "Q029",
-    "topic": "Kulgevär och ammunition",
-    "question": "Vad innebär generellt en högre ballistisk koefficient (BC), allt annat lika?",
-    "options": [
-      {
-        "text": "Att kulan bibehåller fart bättre och får mindre vindavdrift",
-        "explanation": "Högre BC betyder normalt bättre förmåga att motstå luftmotstånd."
-      },
-      {
-        "text": "Att patronens kruttryck alltid är högre",
-        "explanation": "BC anger inte kruttrycket."
-      },
-      {
-        "text": "Att kulan expanderar mer i målet",
-        "explanation": "Expansion styrs av kulkonstruktion och anslagshastighet, inte av BC ensamt."
-      },
-      {
-        "text": "Att kulan väger mer oavsett kaliber",
-        "explanation": "BC bestämmer inte kulans massa ensamt."
-      }
-    ],
-    "answer": 0,
-    "ref": null
-  },
-  {
-    "id": "Q030",
-    "topic": "Kulgevär och ammunition",
-    "question": "Vilka krav uppfyller en blyfri expanderande kula för klass 1 enligt NFS 2023:8?",
-    "options": [
-      {
-        "text": "Minst 7,7 g och 1 800 J vid 100 meter",
-        "explanation": "E100 är lägre än kravet 2 000 J."
-      },
-      {
-        "text": "Minst 8,0 g och 1 500 J vid 100 meter",
-        "explanation": "E100 är för låg även om vikten är tillräcklig."
-      },
-      {
-        "text": "Minst 7,0 g och 2 000 J vid 100 meter",
-        "explanation": "Kulvikten är för låg för det blyfria alternativet."
-      },
-      {
-        "text": "Minst 7,7 g och 2 000 J vid 100 meter",
-        "explanation": "Blyfri expanderande klass 1-kula ska väga minst 7,7 g och nå E100 minst 2 000 J."
-      }
-    ],
-    "answer": 3,
-    "ref": "https://www.naturvardsverket.se/lagar-och-regler/foreskrifter-och-allmanna-rad/2023/nfs-20238/"
-  },
-  {
-    "id": "Q031",
-    "topic": "Jakthundar",
-    "question": "Vad är en ställande hunds huvudsakliga uppgift vid älgjakt?",
-    "options": [
-      {
-        "text": "Att driva älgen i hög fart förbi flera pass",
-        "explanation": "Snabba drev förbi pass är inte huvudsyftet med ställande älghund."
-      },
-      {
-        "text": "Att markera stånd för fältfågel",
-        "explanation": "Stånd för fältfågel är typiskt för stående fågelhund."
-      },
-      {
-        "text": "Att apportera fällt vilt ur vatten",
-        "explanation": "Apportering ur vatten är en annan jaktlig specialisering."
-      },
-      {
-        "text": "Att hitta älg och få den att stanna eller röra sig långsamt genom skall",
-        "explanation": "Hunden söker upp älg och försöker genom skall hålla den på plats för jägaren."
-      }
-    ],
-    "answer": 3,
-    "ref": null
-  },
-  {
-    "id": "Q032",
-    "topic": "Jakthundar",
-    "question": "Vad kännetecknar en stående fågelhund?",
-    "options": [
-      {
-        "text": "Den markerar fågelvittring genom att stå stilla",
-        "explanation": "Stående fågelhundar markerar viltets läge genom ett stånd."
-      },
-      {
-        "text": "Den driver fågel i långa rundor mot passkyttar",
-        "explanation": "Långa drev är inte stående fågelhundars huvudsakliga arbetssätt."
-      },
-      {
-        "text": "Den skäller kontinuerligt efter fågeln i trädet",
-        "explanation": "Trädskall är typiskt för bland annat skällande fågelhundar."
-      },
-      {
-        "text": "Den söker endast efter döda fåglar",
-        "explanation": "Eftersök och apportering är inte definitionen av stående fågelhund."
-      }
-    ],
-    "answer": 0,
-    "ref": null
-  },
-  {
-    "id": "Q033",
-    "topic": "Jakthundar",
-    "question": "Vilken uppgift är särskilt typisk för en apporterande hund efter ett skott?",
-    "options": [
-      {
-        "text": "Att självständigt avliva påskjutet högvilt",
-        "explanation": "Apportören ska inte i första hand avliva stort vilt."
-      },
-      {
-        "text": "Att söka upp spår efter gårdagens viltobservation",
-        "explanation": "Att söka gamla observationsspår är inte apportering."
-      },
-      {
-        "text": "Att hämta fällt småvilt och lämna det till föraren",
-        "explanation": "Apportering innebär att hämta och lämna fällt vilt, ofta fågel."
-      },
-      {
-        "text": "Att hålla älgen stående med skall",
-        "explanation": "Att ställa älg är en ställande hunds uppgift."
-      }
-    ],
-    "answer": 2,
-    "ref": null
-  },
-  {
-    "id": "Q034",
-    "topic": "Jakthundar",
-    "question": "Vad betyder begreppet drevtid vid jakt med drivande hund?",
-    "options": [
-      {
-        "text": "Hur långt från föraren hunden får röra sig",
-        "explanation": "Sökavstånd är en annan egenskap."
-      },
-      {
-        "text": "Hur länge hunden vilar efter ett drev",
-        "explanation": "Återhämtning efter drevet är inte drevtid."
-      },
-      {
-        "text": "Tiden mellan hundens födsel och jaktmognad",
-        "explanation": "Hundens ålder eller utbildningstid avses inte."
-      },
-      {
-        "text": "Den tid då hunden följer och driver vilt med drevskall",
-        "explanation": "Drevtiden avser själva förföljandet av viltet med drevskall."
-      }
-    ],
-    "answer": 3,
-    "ref": null
-  },
-  {
-    "id": "Q035",
-    "topic": "Jakthundar",
-    "question": "Vilken hundtyp förknippas främst med skallgivning mot fågel som sitter uppe i ett träd?",
-    "options": [
-      {
-        "text": "Stående fågelhund",
-        "explanation": "Stående fågelhund markerar främst genom stånd, inte trädskall."
-      },
-      {
-        "text": "Skällande fågelhund",
-        "explanation": "Skällande fågelhund lokaliserar skogsfågel som satt sig i träd och markerar med skall."
-      },
-      {
-        "text": "Ställande älghund",
-        "explanation": "Ställande älghund används främst för klövvilt."
-      },
-      {
-        "text": "Retriever",
-        "explanation": "Retriever är främst en apporterande hund."
-      }
-    ],
-    "answer": 1,
-    "ref": null
-  },
-  {
-    "id": "Q036",
-    "topic": "Jaktformer",
-    "question": "Vilket påstående beskriver bäst pyrschjakt?",
-    "options": [
-      {
-        "text": "Jägaren väntar på att drivande hund för viltet mot passet",
-        "explanation": "Vilt som drivs mot pass beskriver drivjakt."
-      },
-      {
-        "text": "Jägaren använder rop för att samla vilt till en öppen plats",
-        "explanation": "Att locka vilt med ljud kallas lockjakt."
-      },
-      {
-        "text": "Jägaren sitter helt stilla på en fast plats",
-        "explanation": "Stillastående väntan är typiskt för vakjakt."
-      },
-      {
-        "text": "Jägaren rör sig försiktigt och försöker närma sig viltet",
-        "explanation": "Pyrsch är smygjakt där jägaren aktivt närmar sig viltet försiktigt."
-      }
-    ],
-    "answer": 3,
-    "ref": null
-  },
-  {
-    "id": "Q037",
-    "topic": "Jaktformer",
-    "question": "Vad är det huvudsakliga kännetecknet för vakjakt?",
-    "options": [
-      {
-        "text": "Jägaren förföljer synligt vilt till fots",
-        "explanation": "Att aktivt smyga på vilt beskriver pyrsch."
-      },
-      {
-        "text": "Jägaren väntar på en lämplig plats tills viltet visar sig",
-        "explanation": "Vakjakt innebär att jägaren väntar på en passande plats."
-      },
-      {
-        "text": "Jägaren går i ett drev och stöter viltet mot pass",
-        "explanation": "Den beskrivningen avser drevjaktens drevkedja."
-      },
-      {
-        "text": "En hund skäller på viltet tills jägaren kommer fram",
-        "explanation": "Detta beskriver snarare ställande hundjakt."
-      }
-    ],
-    "answer": 1,
-    "ref": null
-  },
-  {
-    "id": "Q038",
-    "topic": "Jaktformer",
-    "question": "Vad innebär lockjakt?",
-    "options": [
-      {
-        "text": "Att låta hundarna driva vilt i cirklar",
-        "explanation": "Drev med hund är en annan metod."
-      },
-      {
-        "text": "Att genom ljud eller andra signaler försöka få vilt att närma sig",
-        "explanation": "Lockjakt utnyttjar exempelvis härmning av djurläten."
-      },
-      {
-        "text": "Att jaga endast under djurens brunst",
-        "explanation": "Lockjakt kan användas vid olika tidpunkter och är inte definierad av brunst."
-      },
-      {
-        "text": "Att alltid använda utfodring som dragningskraft",
-        "explanation": "Utfodring eller åtel är något annat än lockjakt."
-      }
-    ],
-    "answer": 1,
-    "ref": null
-  },
-  {
-    "id": "Q039",
-    "topic": "Jaktformer",
-    "question": "Vad kännetecknar en klappjakt jämfört med ren vakjakt?",
-    "options": [
-      {
-        "text": "Jakten sker alltid från torn",
-        "explanation": "Passkyttar kan placeras på olika säkra platser, inte bara torn."
-      },
-      {
-        "text": "En grupp driver viltet mot utplacerade skyttar",
-        "explanation": "Vid klappjakt rör sig drevfolk genom området och stöter vilt mot passkyttarna."
-      },
-      {
-        "text": "Endast fåglar får jagas med metoden",
-        "explanation": "Klappjakt är en metoddefinition, inte en generell regel som endast avser fåglar."
-      },
-      {
-        "text": "Jägaren smyger ensam genom terrängen",
-        "explanation": "Ensam smygjakt kallas pyrsch, inte klappjakt."
-      }
-    ],
-    "answer": 1,
-    "ref": null
-  },
-  {
-    "id": "Q040",
-    "topic": "Jaktformer",
-    "question": "Vad är huvudsyftet med ett eftersök efter ett misstänkt skadskjutet djur?",
-    "options": [
-      {
-        "text": "Att snarast hitta och vid behov avliva det skadade djuret",
-        "explanation": "Eftersöket syftar till att minimera lidandet genom att hitta och vid behov avliva skadat vilt."
-      },
-      {
-        "text": "Att räkna hur många friska djur som finns kvar",
-        "explanation": "Inventering är inte eftersökets syfte."
-      },
-      {
-        "text": "Att avgöra om markägaren kan få ersättning",
-        "explanation": "Eventuell ersättning är inte eftersökets främsta syfte."
-      },
-      {
-        "text": "Att hålla det skadade djuret i rörelse tills det tröttnar",
-        "explanation": "Att avsiktligt hålla skadat vilt i rörelse kan förvärra situationen."
-      }
-    ],
-    "answer": 0,
-    "ref": null
-  },
-  {
-    "id": "Q041",
-    "topic": "Jaktlagstiftning",
-    "question": "Vilket dokument visar att en person har betalat den statliga viltvårdsavgiften för jaktåret?",
-    "options": [
-      {
-        "text": "Vapenlicens",
-        "explanation": "Vapenlicens visar rätt att inneha angivet vapen, inte betalad avgift."
-      },
-      {
-        "text": "Jägarexamensbevis",
-        "explanation": "Jägarexamen visar genomförda prov, inte betalad viltvårdsavgift."
-      },
-      {
-        "text": "Statligt jaktkort",
-        "explanation": "Det statliga jaktkortet är beviset på betalad viltvårdsavgift."
-      },
-      {
-        "text": "Medlemskort i jaktlag",
-        "explanation": "Medlemskap i ett jaktlag ersätter inte statligt jaktkort."
-      }
-    ],
-    "answer": 2,
-    "ref": null
-  },
-  {
-    "id": "Q042",
-    "topic": "Jaktlagstiftning",
-    "question": "Vem har normalt jakträtten på en fastighet i Sverige om den inte upplåtits till någon annan?",
-    "options": [
-      {
-        "text": "Fastighetsägaren",
-        "explanation": "Jakträtten följer som huvudregel markägandet om den inte upplåtits."
-      },
-      {
-        "text": "Den som först ansöker om jaktkort",
-        "explanation": "Jaktkortet ger inte jakträtt på annans mark."
-      },
-      {
-        "text": "Kommunen",
-        "explanation": "Kommunen har inte automatiskt jakträtt på privatägd mark."
-      },
-      {
-        "text": "Närmaste jaktvårdskrets",
-        "explanation": "En jaktvårdskrets får inte automatiskt jakträtten."
-      }
-    ],
-    "answer": 0,
-    "ref": null
-  },
-  {
-    "id": "Q043",
-    "topic": "Jaktlagstiftning",
-    "question": "Vilken myndighet utfärdar normalt tillstånd att inneha ett jaktvapen i Sverige?",
-    "options": [
-      {
-        "text": "Naturvårdsverket",
-        "explanation": "Naturvårdsverket utfärdar regler och ansvarar för bland annat jägarexamens innehåll."
-      },
-      {
-        "text": "Polismyndigheten",
-        "explanation": "Polismyndigheten prövar ansökningar om vapenlicens."
-      },
-      {
-        "text": "Svenska Jägareförbundet",
-        "explanation": "Jägareförbundet utfärdar inte vapenlicenser."
-      },
-      {
-        "text": "Länsstyrelsen",
-        "explanation": "Länsstyrelsen har andra uppgifter inom jaktförvaltningen men beslutar inte normalt om vapenlicens."
-      }
-    ],
-    "answer": 1,
-    "ref": null
-  },
-  {
-    "id": "Q044",
-    "topic": "Jaktlagstiftning",
-    "question": "Vid jakt efter älg, hjort, rådjur, vildsvin eller mufflonfår, hur snabbt ska en särskilt tränad eftersökshund kunna finnas på skottplatsen vid behov?",
-    "options": [
-      {
-        "text": "Inom 30 minuter",
-        "explanation": "Kravet är två timmar, inte 30 minuter."
-      },
-      {
-        "text": "Inom en timme",
-        "explanation": "En timme kan vara lämpligt men är inte den angivna maxgränsen."
-      },
-      {
-        "text": "Inom två timmar",
-        "explanation": "En särskilt tränad eftersökshund ska vid behov kunna finnas på skottplatsen inom två timmar."
-      },
-      {
-        "text": "Senast nästa morgon",
-        "explanation": "Att vänta till nästa morgon uppfyller inte kravet på tillgång till eftersökshund."
-      }
-    ],
-    "answer": 2,
-    "ref": "https://www.naturvardsverket.se/amnesomraden/jakt-och-vilt/jakt-pa-klovvilt/"
-  },
-  {
-    "id": "Q045",
-    "topic": "Jaktlagstiftning",
-    "question": "Vilken art får enligt huvudregeln jagas med klass 2-kulpatron, om jakten i övrigt är laglig?",
-    "options": [
-      {
-        "text": "Kronhjort",
-        "explanation": "Kronhjort är en hjort som kräver klass 1."
-      },
-      {
-        "text": "Rådjur",
-        "explanation": "Rådjur får jagas med klass 2 eftersom undantaget för hjortar inte omfattar rådjur på det sättet."
-      },
-      {
-        "text": "Vildsvin",
-        "explanation": "Vildsvin kräver klass 1 vid vanlig kuljakt."
-      },
-      {
-        "text": "Dovhjort",
-        "explanation": "Dovhjort kräver klass 1 vid vanlig kuljakt."
-      }
-    ],
-    "answer": 1,
-    "ref": "https://www.naturvardsverket.se/lagar-och-regler/foreskrifter-och-allmanna-rad/2023/nfs-20238/"
-  },
-  {
-    "id": "Q046",
-    "topic": "Säkerhet och jaktetik",
-    "question": "Vad är den säkraste utgångspunkten vid hantering av ett vapen vars laddningsstatus är osäker?",
-    "options": [
-      {
-        "text": "Utgå från att vapnet är oladdat om säkringen är tillkopplad",
-        "explanation": "Säkringen är inte ett bevis på att vapnet är oladdat."
-      },
-      {
-        "text": "Utgå från att vapnet är laddat tills det kontrollerats",
-        "explanation": "Behandla vapnet som laddat och kontrollera patronläge och magasin på säkert sätt."
-      },
-      {
-        "text": "Utgå från att vapnet är oladdat om magasinet är borttaget",
-        "explanation": "En patron kan finnas i patronläget även om magasinet tagits bort."
-      },
-      {
-        "text": "Utgå från att vapnet är tomt när pipan pekar uppåt",
-        "explanation": "Pipans riktning säger inget om laddningsstatus."
-      }
-    ],
-    "answer": 1,
-    "ref": null
-  },
-  {
-    "id": "Q047",
-    "topic": "Säkerhet och jaktetik",
-    "question": "Vad är det viktigaste skälet att avstå skott mot vilt som står framför hård, stenig mark?",
-    "options": [
-      {
-        "text": "Siktets förstoring kan bli för hög",
-        "explanation": "Förstoring har ingen direkt koppling till stenens rikoschettrisk."
-      },
-      {
-        "text": "Kulan får för liten genomträngning i mjukvävnad",
-        "explanation": "Genomträngning i viltet besvarar inte säkerheten för omgivningen."
-      },
-      {
-        "text": "Rikoschettrisken kan göra kulfånget osäkert",
-        "explanation": "Hårda stenytor kan ge rikoschetter och osäkert kulfång."
-      },
-      {
-        "text": "Kulans ballistiska koefficient försämras nära sten",
-        "explanation": "BC förändras inte för att sten finns bakom målet."
-      }
-    ],
-    "answer": 2,
-    "ref": null
-  },
-  {
-    "id": "Q048",
-    "topic": "Säkerhet och jaktetik",
-    "question": "Vad är mest korrekt att göra om du trycker av men bara hör ett klick?",
-    "options": [
-      {
-        "text": "Hålla vapnet i säker riktning och följa rutin för möjlig fördröjd antändning",
-        "explanation": "Håll vapnet i säker riktning och avvakta enligt instruktionerna för klick eller fördröjd antändning."
-      },
-      {
-        "text": "Rikta vapnet mot marken och öppna omedelbart slutstycket",
-        "explanation": "Ett omedelbart öppnande kan vara riskfyllt vid fördröjd antändning."
-      },
-      {
-        "text": "Göra ytterligare ett avtryckarförsök",
-        "explanation": "Ett nytt avtryckarförsök är inte första säkerhetsåtgärden."
-      },
-      {
-        "text": "Blåsa i mynningen för att kontrollera om loppet är öppet",
-        "explanation": "Det är aldrig lämpligt att hantera mynningen på detta sätt."
-      }
-    ],
-    "answer": 0,
-    "ref": null
-  },
-  {
-    "id": "Q049",
-    "topic": "Säkerhet och jaktetik",
-    "question": "Vilken är den viktigaste jaktetiska principen vid bedömning av om ett skott ska avlossas?",
-    "options": [
-      {
-        "text": "Välj alltid det längsta avstånd där vapnet tekniskt kan träffa",
-        "explanation": "Maximalt tekniskt skjutavstånd är inte ett etiskt mått på skotthåll."
-      },
-      {
-        "text": "Prioritera att skjuta innan viltet hinner försvinna",
-        "explanation": "Tidspress är inte skäl att tumma på säkerhet eller skottverkan."
-      },
-      {
-        "text": "Skjut endast när viltet är i snabb rörelse",
-        "explanation": "Rörelse innebär ofta en svårare skottsituation, inte en princip att alltid eftersträva."
-      },
-      {
-        "text": "Säkerställ säkert kulfång och hög sannolikhet för omedelbart dödande skott",
-        "explanation": "Säkerhet och en hög sannolikhet för snabb och skonsam avlivning styr beslutet."
-      }
-    ],
-    "answer": 3,
-    "ref": null
-  },
-  {
-    "id": "Q050",
-    "topic": "Säkerhet och jaktetik",
-    "question": "Varför ska fingret normalt hållas utanför varbygeln tills ett skott avses?",
-    "options": [
-      {
-        "text": "För att öka vapnets mekaniska säkring",
-        "explanation": "Fingrets placering ändrar inte vapnets inbyggda säkringsmekanism."
-      },
-      {
-        "text": "För att minska risken för oavsiktlig avfyrning",
-        "explanation": "Det minskar risken att avtryckaren påverkas oavsiktligt."
-      },
-      {
-        "text": "För att förhindra att patronen fastnar i magasinet",
-        "explanation": "Patronmatning påverkas inte på det sättet av fingret."
-      },
-      {
-        "text": "För att förbättra kulans stabilitet",
-        "explanation": "Kulans stabilitet påverkas av bland annat räffling, inte fingerplacering."
-      }
-    ],
-    "answer": 1,
-    "ref": null
-  }
-];
-
-  </script>
-  <script>
+'use strict';
+function START_JAGARPROVET_APP() {
 /* Jägarprovet – fristående, serverfri demonstrationsapp. */
 (() => {
   'use strict';
   const QUESTIONS = window.QUESTIONS || [];
   const INDEX = new Map(QUESTIONS.map(q => [q.id,q]));
   const TOPICS = [...new Set(QUESTIONS.map(q => q.topic))];
+  const FULL_EXAM = QUESTIONS.length >= 70;
+  const EXAM_COUNT = FULL_EXAM ? 70 : Math.min(20, QUESTIONS.length);
+  const EXAM_MINS = FULL_EXAM ? 60 : 17;
   const STORAGE = 'jagarprovet_v1';
   const ACTIVE = 'jagarprovet_active_v1';
   const root = document.getElementById('app');
@@ -1293,6 +57,33 @@ window.QUESTIONS = [
   function escapeHTML(str){return String(str??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
   function shuffle(arr){const r=[...arr];for(let i=r.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[r[i],r[j]]=[r[j],r[i]]}return r}
   function escAttr(str){return escapeHTML(str)}
+  // Externa bilder ska ha HTTPS. Lokala bilder ska ligga i mappen bilder/.
+  function safeImageSrc(src){
+    if(typeof src!=='string')return null;
+    const s=src.trim();
+    if(!s||s.length>1800||/[\x00-\x1f]/.test(s))return null;
+    if(/^https:\/\/[^\s]+$/i.test(s))return s;
+    if(/^(?:\.\/)?bilder\/[\p{L}\p{N}_.%() +\/-]+\.(?:png|jpe?g|webp|gif)$/iu.test(s) && !s.includes('..'))return s;
+    return null;
+  }
+  function safeWebLink(s){return typeof s==='string'&&/^https:\/\/[^\s]+$/i.test(s.trim())?s.trim():null}
+  function mediaObj(obj){return typeof obj==='string'?{src:obj}:obj}
+  function imageHtml(raw,option=false){
+    const m=mediaObj(raw);if(!m||typeof m!=='object')return '';
+    const src=safeImageSrc(m.src);if(!src)return '';
+    const alt=escapeHTML(m.alt||(option?'Illustration för svarsalternativ':'Bild till frågan'));
+    const img=`<img class="${option?'option-image':'quiz-image'}" loading="lazy" src="${escAttr(src)}" alt="${alt}">`;
+    const cap=m.caption?escapeHTML(m.caption):'';
+    const credit=m.credit?escapeHTML(m.credit):'';
+    const creditUrl=safeWebLink(m.creditUrl);
+    const creditMarkup=credit?(creditUrl?`<a href="${escAttr(creditUrl)}" rel="noopener noreferrer" target="_blank">${credit}</a>`:credit):'';
+    if(option)return `${img}${credit?`<span class="option-credit">Bild: ${creditMarkup}</span>`:''}`;
+    return `<figure class="quiz-figure"><a class="quiz-image-link" target="_blank" rel="noopener noreferrer" href="${escAttr(src)}" title="Öppna större bild">${img}</a>${cap||credit?`<figcaption class="quiz-caption">${cap}${cap&&credit?' · ':''}${credit?`Bild: ${creditMarkup}`:''} · Tryck på bilden för större format</figcaption>`:'<figcaption class="quiz-caption">Tryck på bilden för större format</figcaption>'}</figure>`;
+  }
+  function downloadJson(obj,name){
+    const blob=new Blob([JSON.stringify(obj,null,2)+'\n'],{type:'application/json;charset=utf-8'});
+    const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);
+  }
   function pct(a,b){return b?Math.round(100*a/b):0}
   function dateTime(d){return new Date(d).toLocaleDateString('sv-SE',{year:'numeric',month:'short',day:'numeric'})}
   function record(q,selected,uncertain){let x=state.stats[q.id]||{seen:0,correct:0,wrong:0,uncertain:0};x.seen++;if(selected===q.answer)x.correct++;else x.wrong++;if(uncertain)x.uncertain++;state.stats[q.id]=x}
@@ -1301,31 +92,33 @@ window.QUESTIONS = [
   function button(label,id,variant=''){return `<button class="button ${variant}" id="${id}" type="button">${escapeHTML(label)}</button>`}
   function showHome(){
     view='home'; currentResult=null;
-    const total=statsSummary(),last=state.attempts[0];
+    const total=statsSummary(),last=state.attempts[0],withSource=QUESTIONS.filter(q=>typeof q.ref==='string' && q.ref.startsWith('https://')).length;
     root.innerHTML=`<div class="stack">
-      <section><div class="eyebrow">DIN ÖVNINGSPLATS</div><h1>Träna smart inför<br>jägarexamen.</h1><p class="lead">50 frågor fördelade över tio områden. Korta pass, ett tidsatt mini-prov och förklaringar till varje alternativ.</p></section>
-      <section class="gridstats"><div class="metric"><strong>${totalSeen()}/50</strong><span>Unika frågor sedda</span></div><div class="metric"><strong>${pct(total.correct,total.answered)} %</strong><span>Rätt över alla försök</span></div><div class="metric"><strong>${state.attempts.length}</strong><span>Avslutade pass</span></div></section>
+      <section><div class="eyebrow">DIN ÖVNINGSPLATS</div><h1>Träna smart inför<br>jägarexamen.</h1><p class="lead">${QUESTIONS.length} frågor fördelade över ${TOPICS.length} områden. Korta pass, tidsatt provläge och förklaringar till varje alternativ. ${withSource} frågor med källänk; övriga behöver fortsatt faktagranskning.</p></section>
+      <section class="gridstats"><div class="metric"><strong>${totalSeen()}/${QUESTIONS.length}</strong><span>Unika frågor sedda</span></div><div class="metric"><strong>${pct(total.correct,total.answered)} %</strong><span>Rätt över alla försök</span></div><div class="metric"><strong>${state.attempts.length}</strong><span>Avslutade pass</span></div></section>
       ${session?`<div class="disclaimer"><b>Du har ett pågående pass.</b> Fortsätt där du slutade. ${button('Fortsätt pass','resume')}</div>`:''}
-      <section class="tiles"><button class="tile" id="goTrain"><div class="symbol">◎</div><strong>Ämnesträning</strong><span class="muted">Välj område, få direkt facit och lär av varje svar.</span></button><button class="tile" id="goExam"><div class="symbol">▤</div><strong>Mini-prov</strong><span class="muted">20 blandade frågor, 17 minuter och rättning i slutet.</span></button><button class="tile" id="goReview"><div class="symbol">↺</div><strong>Repetition</strong><span class="muted">Träna på tidigare fel och osäkra svar.</span></button><button class="tile" id="goStats"><div class="symbol">▥</div><strong>Resultat & statistik</strong><span class="muted">Se styrkor och svagheter per ämnesområde.</span></button></section>
-      <div class="disclaimer"><b>Demoversion.</b> Det officiella teoriprovet har 70 frågor på 60 minuter och kräver minst 60 rätt. Med bara 50 frågor använder appen ett kortare, inofficiellt mini-prov. <a href="https://www.naturvardsverket.se/amnesomraden/jakt-och-vilt/for-jagare/teoriprov-jagarexamen/" target="_blank" rel="noopener">Officiell information</a>.</div>
+      <section class="tiles"><button class="tile" id="goTrain"><div class="symbol">◎</div><strong>Ämnesträning</strong><span class="muted">Välj område, få direkt facit och lär av varje svar.</span></button><button class="tile" id="goExam"><div class="symbol">▤</div><strong>${FULL_EXAM?'70-frågors prov':'Mini-prov'}</strong><span class="muted">${EXAM_COUNT} blandade frågor, ${EXAM_MINS} minuter och rättning i slutet.</span></button><button class="tile" id="goReview"><div class="symbol">↺</div><strong>Repetition</strong><span class="muted">Träna på tidigare fel och osäkra svar.</span></button><button class="tile" id="goStats"><div class="symbol">▥</div><strong>Resultat & statistik</strong><span class="muted">Se styrkor och svagheter per ämnesområde.</span></button></section>
+      <div class="disclaimer"><b>Demoversion.</b> Det officiella teoriprovet har 70 frågor på 60 minuter och kräver minst 60 rätt. ${FULL_EXAM?'Appen kan nu välja 70 frågor, men frågebanken behöver växa och granskas vidare.':'Frågebanken är ännu för liten för ett fullständigt övningsprov.'} <a href="https://www.naturvardsverket.se/amnesomraden/jakt-och-vilt/for-jagare/teoriprov-jagarexamen/" target="_blank" rel="noopener">Officiell information</a>.</div>
+      <div class="buttons"><button class="button alt" id="goImageEditor">Bildverktyg för frågebanken</button></div>
       ${last?`<p class="small muted">Senaste passet: ${escAttr(dateTime(last.date))} · ${last.correct}/${last.total} rätt · ${escapeHTML(last.mode==='exam'?'Mini-prov':'Träning')}</p>`:''}</div>`;
     document.getElementById('goTrain').onclick=showTrainSetup;
     document.getElementById('goExam').onclick=showExamSetup;
     document.getElementById('goReview').onclick=showReviewSetup;
     document.getElementById('goStats').onclick=showStats;
+    document.getElementById('goImageEditor').onclick=showImageEditor;
     if(session)document.getElementById('resume').onclick=()=>{view='play';renderQuestion()};
   }
   function showTrainSetup(topic='Blandat'){
     view='setup';
-    root.innerHTML=`<div class="stack"><div>${button('← Startsidan','home','ghost')}</div><div class="card stack"><div><div class="eyebrow">TRÄNING</div><h2>Välj vad du vill öva</h2><p class="muted small">Svara och få facit direkt. Du kan också markera svar som osäkra.</p></div><div class="formrow"><div class="field"><label for="topic">Ämne</label><select id="topic"><option value="Blandat">Blandat – alla ämnen</option>${TOPICS.map(t=>`<option value="${escAttr(t)}" ${t===topic?'selected':''}>${escapeHTML(t)}</option>`).join('')}</select></div><div class="field"><label for="count">Antal frågor</label><select id="count"><option value="5">5 frågor</option><option value="10" selected>10 frågor</option><option value="20">20 frågor</option></select></div></div><p class="small muted" id="countHint"></p>${button('Starta träning','startTrain')}</div></div>`;
+    root.innerHTML=`<div class="stack"><div>${button('← Startsidan','home','ghost')}</div><div class="card stack"><div><div class="eyebrow">TRÄNING</div><h2>Välj vad du vill öva</h2><p class="muted small">Svara och få facit direkt. Du kan också markera svar som osäkra.</p></div><div class="formrow"><div class="field"><label for="topic">Ämne</label><select id="topic"><option value="Blandat">Blandat – alla ämnen</option>${TOPICS.map(t=>`<option value="${escAttr(t)}" ${t===topic?'selected':''}>${escapeHTML(t)}</option>`).join('')}</select></div><div class="field"><label for="subtopic">Underområde</label><select id="subtopic"><option value="Alla">Alla underområden</option></select></div><div class="field"><label for="count">Antal frågor</label><select id="count"><option value="5">5 frågor</option><option value="10" selected>10 frågor</option><option value="20">20 frågor</option></select></div></div><p class="small muted" id="countHint"></p>${button('Starta träning','startTrain')}</div></div>`;
     document.getElementById('home').onclick=showHome;
-    const update=()=>{const topic=document.getElementById('topic').value;const count=Number(document.getElementById('count').value);const available=topic==='Blandat'?QUESTIONS.length:QUESTIONS.filter(q=>q.topic===topic).length;document.getElementById('countHint').textContent=`${available} frågor i detta urval. Passet blir ${Math.min(count,available)} frågor utan upprepning.`};
-    document.getElementById('topic').onchange=update;document.getElementById('count').onchange=update;update();
-    document.getElementById('startTrain').onclick=()=>start('practice',document.getElementById('topic').value,Number(document.getElementById('count').value));
+    const update=()=>{const topic=document.getElementById('topic').value;const subSelect=document.getElementById('subtopic');const prior=subSelect.value;const subs=[...new Set(QUESTIONS.filter(q=>topic==='Blandat'||q.topic===topic).map(q=>q.subcategory||q.topic))];subSelect.innerHTML='<option value="Alla">Alla underområden</option>'+subs.map(s=>`<option value="${escAttr(s)}">${escapeHTML(s)}</option>`).join('');subSelect.value=subs.includes(prior)?prior:'Alla';const count=Number(document.getElementById('count').value);const available=QUESTIONS.filter(q=>(topic==='Blandat'||q.topic===topic)&&(subSelect.value==='Alla'||(q.subcategory||q.topic)===subSelect.value)).length;document.getElementById('countHint').textContent=`${available} frågor i urvalet. Passet blir ${Math.min(count,available)} frågor utan upprepning.`};
+    document.getElementById('topic').onchange=()=>{document.getElementById('subtopic').value='Alla';update()};document.getElementById('subtopic').onchange=()=>{const topic=document.getElementById('topic').value;const sub=document.getElementById('subtopic').value;const count=Number(document.getElementById('count').value);const available=QUESTIONS.filter(q=>(topic==='Blandat'||q.topic===topic)&&(sub==='Alla'||(q.subcategory||q.topic)===sub)).length;document.getElementById('countHint').textContent=`${available} frågor i urvalet. Passet blir ${Math.min(count,available)} frågor utan upprepning.`};document.getElementById('count').onchange=document.getElementById('subtopic').onchange;update();
+    document.getElementById('startTrain').onclick=()=>start('practice',document.getElementById('topic').value,Number(document.getElementById('count').value),document.getElementById('subtopic').value);
   }
   function showExamSetup(){
-    view='setup';root.innerHTML=`<div class="stack"><div>${button('← Startsidan','home','ghost')}</div><div class="card stack"><div class="eyebrow">TIDSATT DELPROV</div><h2>Mini-prov · 20 frågor</h2><div class="gridstats"><div class="metric"><strong>20</strong><span>Frågor</span></div><div class="metric"><strong>17 min</strong><span>Tid</span></div><div class="metric"><strong>10</strong><span>Ämnen</span></div></div><p>Frågorna blandas från de tio ämnena, två från varje. Du kan navigera och bokmärka frågor. Inget facit visas förrän du lämnat in eller tiden gått ut.</p><p class="disclaimer">Detta är inte ett officiellt teoriprov. Ingen gräns för godkänt/underkänt visas i demoversionen.</p>${button('Starta tidsatt mini-prov','startExam')}</div></div>`;
-    document.getElementById('home').onclick=showHome;document.getElementById('startExam').onclick=()=>start('exam','Blandat',20);
+    view='setup';root.innerHTML=`<div class="stack"><div>${button('← Startsidan','home','ghost')}</div><div class="card stack"><div class="eyebrow">${FULL_EXAM?'TIDSATT ÖVNINGSPROV':'TIDSATT DELPROV'}</div><h2>${FULL_EXAM?"Provliknande övningsprov":"Mini-prov"} · ${EXAM_COUNT} frågor</h2><div class="gridstats"><div class="metric"><strong>${EXAM_COUNT}</strong><span>Frågor</span></div><div class="metric"><strong>${EXAM_MINS} min</strong><span>Tid</span></div><div class="metric"><strong>${TOPICS.length}</strong><span>Ämnen</span></div></div><p>Frågorna blandas från tillgängliga ämnen utan upprepning. Du kan navigera och bokmärka frågor. Inget facit visas förrän du lämnat in eller tiden gått ut.</p><p class="disclaimer">Detta är egna övningsfrågor, inte Naturvårdsverkets prov. Frågebanken innehåller också tidigare demonstrationsfrågor som ännu inte granskats individuellt.</p>${button(FULL_EXAM?'Starta 70-frågorsprov':'Starta mini-prov','startExam')}</div></div>`;
+    document.getElementById('home').onclick=showHome;document.getElementById('startExam').onclick=()=>start('exam','Blandat',EXAM_COUNT);
   }
   function showReviewSetup(){
     view='setup';let weak=QUESTIONS.filter(q=>{const s=state.stats[q.id];return s&&(s.wrong>0||s.uncertain>0)});
@@ -1333,16 +126,16 @@ window.QUESTIONS = [
     document.getElementById('home').onclick=showHome;
     const b=document.getElementById('startReview');b.disabled=weak.length===0;b.onclick=()=>start('review','Blandat',Math.min(10,weak.length));
   }
-  function sample(mode,topic,count){
-    if(mode==='exam'){return shuffle(TOPICS.flatMap(t=>shuffle(QUESTIONS.filter(q=>q.topic===t)).slice(0,2)))}
-    let pool=mode==='review'?QUESTIONS.filter(q=>{const s=state.stats[q.id];return s&&(s.wrong||s.uncertain)}):QUESTIONS.filter(q=>topic==='Blandat'||q.topic===topic);
+  function sample(mode,topic,count,subtopic='Alla'){
+    if(mode==='exam'){return shuffle(QUESTIONS).slice(0,count)}
+    let pool=mode==='review'?QUESTIONS.filter(q=>{const s=state.stats[q.id];return s&&(s.wrong||s.uncertain)}):QUESTIONS.filter(q=>(topic==='Blandat'||q.topic===topic)&&(subtopic==='Alla'||(q.subcategory||q.topic)===subtopic));
     // Föredra obesvarade frågor. Dra slumpmässigt bland frågor med samma antal tidigare försök.
     return shuffle(pool).sort((a,b)=>(state.stats[a.id]?.seen||0)-(state.stats[b.id]?.seen||0)).slice(0,count);
   }
-  function start(mode,topic,count){
+  function start(mode,topic,count,subtopic='Alla'){
     if(session&&!confirm('Ett tidigare pass är inte färdigt. Vill du ersätta det?'))return;
-    const pool=sample(mode,topic,count);if(!pool.length){showHome();return}
-    session={mode,topic,ids:pool.map(q=>q.id),index:0,choices:{},uncertain:{},confirmed:{},started:Date.now(),deadline:mode==='exam'?Date.now()+17*60*1000:null};
+    const pool=sample(mode,topic,count,subtopic);if(!pool.length){showHome();return}
+    session={mode,topic,subtopic,ids:pool.map(q=>q.id),index:0,choices:{},uncertain:{},confirmed:{},started:Date.now(),deadline:mode==='exam'?Date.now()+EXAM_MINS*60*1000:null};
     saveSession();view='play';renderQuestion();
   }
   function currentQ(){return INDEX.get(session.ids[session.index])}
@@ -1354,10 +147,11 @@ window.QUESTIONS = [
     view='play';const q=currentQ(),at=session.index,total=session.ids.length,answered=Object.keys(session.confirmed).length;
     const isExam=session.mode==='exam';const locked=!!session.confirmed[q.id],selected=session.choices[q.id];const isUncertain=!!session.uncertain[q.id];
     root.innerHTML=`<div class="stack">
-    <div class="qtop"><button class="button ghost" id="exit">← Avsluta</button><div class="buttons"><span class="pill ${isExam?'exam':''}">${isExam?'MINI-PROV':'TRÄNING'}</span>${isExam?`<span class="pill warn" id="timer">${timeLabel(remaining())}</span>`:''}</div></div>
-    <div class="card"><div class="qtop"><span class="small muted">Fråga ${at+1} av ${total}</span><span class="tiny muted">${escapeHTML(q.topic)}</span></div><div class="progressbar"><div style="width:${100*(at+1)/total}%"></div></div>
+    <div class="qtop"><button class="button ghost" id="exit">← Avsluta</button><div class="buttons"><span class="pill ${isExam?'exam':''}">${isExam?(FULL_EXAM?'PROVLÄGE':'MINI-PROV'):'TRÄNING'}</span>${isExam?`<span class="pill warn" id="timer">${timeLabel(remaining())}</span>`:''}</div></div>
+    <div class="card"><div class="qtop"><span class="small muted">Fråga ${at+1} av ${total}</span><span class="tiny muted">${escapeHTML(q.topic)} · ${escapeHTML(q.subcategory||q.topic)}</span></div><div class="progressbar"><div style="width:${100*(at+1)/total}%"></div></div>
     <div class="questionTitle">${escapeHTML(q.question)}</div>
-    <div role="group" aria-label="Svarsalternativ">${q.options.map((o,i)=>`<button class="choice ${selected===i?'selected':''} ${locked&&i===q.answer?'correct':''} ${locked&&selected===i&&i!==q.answer?'wrong':''}" data-choice="${i}" ${locked?'disabled':''} aria-pressed="${selected===i}"><span class="letter">${letters[i]}</span><span>${escapeHTML(o.text)}</span></button>`).join('')}</div>
+    ${imageHtml(q.image)}
+    <div role="group" aria-label="Svarsalternativ">${q.options.map((o,i)=>`<button class="choice ${selected===i?'selected':''} ${locked&&i===q.answer?'correct':''} ${locked&&selected===i&&i!==q.answer?'wrong':''}" data-choice="${i}" ${locked?'disabled':''} aria-pressed="${selected===i}"><span class="letter">${letters[i]}</span><span class="option-body"><span>${escapeHTML(o.text)}</span>${imageHtml(o.image,true)}</span></button>`).join('')}</div>
     <label class="qflag"><input type="checkbox" id="uncertain" ${isUncertain?'checked':''}> Markera som osäker / bokmärk</label>
     ${locked&&!isExam?feedback(q,selected):''}
     <hr class="rule"><div class="buttons"><button class="button alt" id="prev" ${at===0?'disabled':''}>← Föregående</button><div class="grow"></div>${!isExam&&!locked?button('Rätta svar','check'):''}${at<total-1?button('Nästa →','next'):button(isExam?'Lämna in mini-prov':'Visa resultat','finish')}</div>
@@ -1377,7 +171,7 @@ window.QUESTIONS = [
     };
     root.querySelectorAll('[data-jump]').forEach(b=>b.onclick=()=>{session.index=Number(b.dataset.jump);saveSession();renderQuestion()});
   }
-  function feedback(q,selected){return `<div class="feedback"><strong class="${selected===q.answer?'good':'bad'}">${selected===q.answer?'Rätt svar':'Inte riktigt'} — rätt svar är ${letters[q.answer]}</strong>${q.options.map((o,i)=>`<article><b class="${i===q.answer?'good':i===selected?'bad':''}">${letters[i]}. ${escapeHTML(o.text)}</b><br><span class="muted">${escapeHTML(o.explanation)}</span></article>`).join('')}${q.ref?`<a class="small" target="_blank" rel="noopener noreferrer" href="${escAttr(q.ref)}">Kontrollera källan ↗</a>`:''}</div>`}
+  function feedback(q,selected){return `<div class="feedback"><strong class="${selected===q.answer?'good':'bad'}">${selected===q.answer?'Rätt svar':'Inte riktigt'} — rätt svar är ${letters[q.answer]}</strong>${q.options.map((o,i)=>`<article><b class="${i===q.answer?'good':i===selected?'bad':''}">${letters[i]}. ${escapeHTML(o.text)}</b>${o.image?`<div style="margin:8px 0">${imageHtml(o.image,true)}</div>`:''}<br><span class="muted">${escapeHTML(o.explanation)}</span></article>`).join('')}${q.ref?`<a class="small" target="_blank" rel="noopener noreferrer" href="${escAttr(q.ref)}">Läs källan ↗</a>`:''}<p class="tiny muted" style="margin-top:10px">Granskningsstatus: ${escapeHTML(q.verification||'okänd')}${q.source_date?' · '+escapeHTML(q.source_date):''}</p></div>`}
   function finish(timeout){
     if(!session)return;const ended=session;
     if(ended.mode==='exam'){for(const id of ended.ids){let q=INDEX.get(id);record(q,ended.choices[id],!!ended.uncertain[id])}}
@@ -1387,17 +181,113 @@ window.QUESTIONS = [
   }
   function showResult(a){view='result';currentResult=a;
     const questions=a.items.map(item=>({q:INDEX.get(item.id),...item})).filter(x=>x.q);
-    root.innerHTML=`<div class="stack"><div class="eyebrow">${a.mode==='exam'?'RESULTAT: MINI-PROV':'RESULTAT: TRÄNING'}</div><div class="card stack"><div class="resultscore">${a.correct}/${a.total}</div><h2 style="margin:0">${pct(a.correct,a.total)} procent rätt</h2><p class="muted">${a.timeout?'Tiden gick ut. Obesvarade frågor räknas som fel.':'Passet är färdigt.'} ${a.mode==='exam'?'Det här var ett kort övningsprov, inte ett officiellt godkänt/underkänt-resultat.':''}</p><div class="buttons">${button('Till startsidan','toHome')}${button('Nytt träningspass','again','alt')}</div></div><div><h2>Gå igenom svaren</h2><p class="small muted">Tryck på en fråga för att se förklaringen till samtliga fyra alternativ.</p></div>${questions.map((x,i)=>`<details class="result-item"><summary><span class="sign ${x.choice===x.q.answer?'good':'bad'}">${x.choice===x.q.answer?'✓':'×'}</span><span>${i+1}. ${escapeHTML(x.q.question)} ${x.uncertain?'<span class="pill warn">Osäker</span>':''}</span></summary><div class="inside"><p class="small muted">Ditt svar: ${x.choice==null?'Inget svar':letters[x.choice]}. Rätt svar: ${letters[x.q.answer]}.</p>${feedback(x.q,x.choice)}</div></details>`).join('')}</div>`;
+    root.innerHTML=`<div class="stack"><div class="eyebrow">${a.mode==='exam'?'RESULTAT: PROVLÄGE':'RESULTAT: TRÄNING'}</div><div class="card stack"><div class="resultscore">${a.correct}/${a.total}</div><h2 style="margin:0">${pct(a.correct,a.total)} procent rätt</h2><p class="muted">${a.timeout?'Tiden gick ut. Obesvarade frågor räknas som fel.':'Passet är färdigt.'} ${a.mode==='exam'?(FULL_EXAM?((a.correct>=60?'Godkänd nivå':'Under godkänd nivå')+' enligt poänggränsen 60/70 för det officiella teoriprovet. Detta är ett inofficiellt övningsprov.'): 'Det här var ett kort övningsprov, inte ett officiellt godkänt/underkänt-resultat.'):''}</p><div class="buttons">${button('Till startsidan','toHome')}${button('Nytt träningspass','again','alt')}</div></div><div><h2>Gå igenom svaren</h2><p class="small muted">Tryck på en fråga för att se förklaringen till samtliga fyra alternativ.</p></div>${questions.map((x,i)=>`<details class="result-item"><summary><span class="sign ${x.choice===x.q.answer?'good':'bad'}">${x.choice===x.q.answer?'✓':'×'}</span><span>${i+1}. ${escapeHTML(x.q.question)} ${x.uncertain?'<span class="pill warn">Osäker</span>':''}</span></summary><div class="inside">${imageHtml(x.q.image)}<p class="small muted">Ditt svar: ${x.choice==null?'Inget svar':letters[x.choice]}. Rätt svar: ${letters[x.q.answer]}.</p>${feedback(x.q,x.choice)}</div></details>`).join('')}</div>`;
     document.getElementById('toHome').onclick=showHome;document.getElementById('again').onclick=()=>showTrainSetup(a.mode==='practice'?a.topic:'Blandat');window.scrollTo(0,0);
   }
   function showStats(){view='stats';const summary=statsSummary();const topics=TOPICS.map(t=>{const qs=QUESTIONS.filter(q=>q.topic===t);const stats=qs.map(q=>state.stats[q.id]).filter(Boolean);const attempts=stats.reduce((s,x)=>s+x.seen,0);const correct=stats.reduce((s,x)=>s+x.correct,0);return{t,seen:stats.length,attempts,correct}});
-    root.innerHTML=`<div class="stack"><div>${button('← Startsidan','home','ghost')}</div><div><div class="eyebrow">DIN STATISTIK</div><h1>Utveckling</h1></div><div class="card stack"><div class="gridstats"><div class="metric"><strong>${totalSeen()}/50</strong><span>Unika sedda</span></div><div class="metric"><strong>${pct(summary.correct,summary.answered)} %</strong><span>Alla svar</span></div><div class="metric"><strong>${state.attempts.length}</strong><span>Pass</span></div></div><h2>Per ämne</h2>${topics.map(x=>`<div class="category-row"><div style="flex:1"><strong class="small">${escapeHTML(x.t)}</strong><div class="tiny muted">${x.seen}/5 unika · ${x.attempts} svar</div><div class="mini-bar"><div style="width:${pct(x.correct,x.attempts)}%"></div></div></div><strong>${x.attempts?pct(x.correct,x.attempts)+' %':'–'}</strong></div>`).join('')}</div><div class="card stack"><h2>Senaste pass</h2>${state.attempts.length?state.attempts.slice(0,8).map(a=>`<div class="category-row"><span>${escapeHTML(dateTime(a.date))} · ${a.mode==='exam'?'Mini-prov':escapeHTML(a.topic)}</span><strong>${a.correct}/${a.total}</strong></div>`).join(''):'<p class="muted">Inga avslutade pass än.</p>'}<div class="buttons">${button('Exportera mina resultat','exportStats','alt')}${button('Importera resultat','importStats','alt')}${button('Nollställ statistik','clearStats','danger')}</div><input id="importFile" type="file" accept=".json,application/json" class="hidden"></div></div>`;
+    root.innerHTML=`<div class="stack"><div>${button('← Startsidan','home','ghost')}</div><div><div class="eyebrow">DIN STATISTIK</div><h1>Utveckling</h1></div><div class="card stack"><div class="gridstats"><div class="metric"><strong>${totalSeen()}/${QUESTIONS.length}</strong><span>Unika sedda</span></div><div class="metric"><strong>${pct(summary.correct,summary.answered)} %</strong><span>Alla svar</span></div><div class="metric"><strong>${state.attempts.length}</strong><span>Pass</span></div></div><h2>Per ämne</h2>${topics.map(x=>`<div class="category-row"><div style="flex:1"><strong class="small">${escapeHTML(x.t)}</strong><div class="tiny muted">${x.seen}/${QUESTIONS.filter(q=>q.topic===x.t).length} unika · ${x.attempts} svar</div><div class="mini-bar"><div style="width:${pct(x.correct,x.attempts)}%"></div></div></div><strong>${x.attempts?pct(x.correct,x.attempts)+' %':'–'}</strong></div>`).join('')}</div><div class="card stack"><h2>Senaste pass</h2>${state.attempts.length?state.attempts.slice(0,8).map(a=>`<div class="category-row"><span>${escapeHTML(dateTime(a.date))} · ${a.mode==='exam'?'Provläge':escapeHTML(a.topic)}</span><strong>${a.correct}/${a.total}</strong></div>`).join(''):'<p class="muted">Inga avslutade pass än.</p>'}<div class="buttons">${button('Exportera mina resultat','exportStats','alt')}${button('Importera resultat','importStats','alt')}${button('Nollställ statistik','clearStats','danger')}</div><input id="importFile" type="file" accept=".json,application/json" class="hidden"></div></div>`;
     document.getElementById('home').onclick=showHome;
     document.getElementById('exportStats').onclick=()=>{const blob=new Blob([JSON.stringify({version:1,stats:state.stats,attempts:state.attempts},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='jagarprovet-resultat.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),500)};
     document.getElementById('importStats').onclick=()=>document.getElementById('importFile').click();
     document.getElementById('importFile').onchange=async(e)=>{try{const f=e.target.files[0];if(!f)return;const v=JSON.parse(await f.text());if(v.version!==1||typeof v.stats!=='object'||!Array.isArray(v.attempts))throw Error('Ogiltig fil');if(!confirm('Importera filen? Nuvarande sparade resultat ersätts.'))return;state.stats=v.stats;state.attempts=v.attempts;persist();showStats()}catch{alert('Kunde inte läsa resultatfilen.')}};
     document.getElementById('clearStats').onclick=()=>{if(confirm('Ta bort alla sparade resultat på denna enhet? Detta går inte att ångra.')){state.stats={};state.attempts=[];persist();showStats()}};
   }
+  function showImageEditor(){
+    view='editor';
+    const workingBank=QUESTIONS.map(q=>structuredClone(q));
+    const draftIndex=new Map(workingBank.map(q=>[q.id,q]));
+    const changedTargets=new Set();
+    const topics=[...new Set(workingBank.map(q=>q.topic))];
+    root.innerHTML=`<div class="stack"><div>${button('← Startsidan','editorHome','ghost')}</div><div><div class="eyebrow">REDIGERA FRÅGEBANKEN</div><h1>Bildverktyg</h1><p class="lead">Välj en fråga, ange en bildadress eller välj ett foto från telefonen och hämta en uppdaterad fragor.json. Allt sker lokalt i webbläsaren.</p></div>
+      <div class="card stack">
+      <div class="formrow"><div class="field"><label for="editTopic">Ämne</label><select id="editTopic">${topics.map(t=>`<option value="${escAttr(t)}">${escapeHTML(t)}</option>`).join('')}</select></div><div class="field"><label for="editQuestion">Fråga</label><select id="editQuestion"></select></div></div>
+      <div class="field"><label for="editPlace">Var ska bilden synas?</label><select id="editPlace"><option value="question">Under frågetexten</option><option value="0">Vid svar A</option><option value="1">Vid svar B</option><option value="2">Vid svar C</option><option value="3">Vid svar D</option></select></div>
+      <hr class="rule">
+      <div class="field"><label for="editSrc">Bildadress (direkt HTTPS-länk eller sökväg, t.ex. bilder/radjur.jpg)</label><input type="text" id="editSrc" placeholder="bilder/mitt-foto.jpg"></div>
+      <div class="field"><label for="editFile">Eller välj en bild från telefonen</label><input type="file" id="editFile" accept="image/jpeg,image/png,image/webp,image/gif"><span class="tiny muted">Bilden laddas inte upp automatiskt. Du laddar sedan även upp fotot i mappen bilder/ på GitHub.</span></div>
+      <div class="field"><label for="editAlt">Bildbeskrivning (utan att avslöja facit)</label><input type="text" id="editAlt" placeholder="Exempel: Fågel på vatten med svartvit fjäderdräkt"></div>
+      <div class="field"><label for="editCaption">Bildtext (valfri)</label><input type="text" id="editCaption" placeholder="Exempel: Identifiera arten på fotografiet"></div>
+      <div class="formrow"><div class="field"><label for="editCredit">Fotograf / bildkälla</label><input type="text" id="editCredit" placeholder="Fotografens namn · CC BY-SA 4.0"></div><div class="field"><label for="editCreditUrl">Länk till bildens upphov och licens (valfri)</label><input type="url" id="editCreditUrl" placeholder="https://commons.wikimedia.org/wiki/File:..."></div></div>
+      <div class="editor-preview" id="editorPreview"></div>
+      <p id="editorStatus" role="status" class="small muted">Inga ändringar sparade i utkastet ännu.</p>
+      <div class="buttons">${button('Spara bild i utkast','saveImage')}${button('Ta bort bild ur utkast','removeImage','alt')}</div>
+      <div class="buttons">${button('Ladda ned fragor.json med alla ändringar','exportImages')}</div>
+      <div class="editor-info"><b>Viktigt:</b> Spara varje bild i utkastet innan du byter fråga, och ladda ned JSON-filen när alla är klara. Verktyget ändrar inte hemsidan direkt. Ersätt sedan <code>fragor.json</code> på GitHub. Har du valt en fil från telefonen ska du även ladda upp den i mappen <code>bilder/</code>. Befintlig statistik försvinner inte, eftersom frågans ID behålls.</div>
+      </div></div>`;
+    document.getElementById('editorHome').onclick=showHome;
+    const getQ=()=>draftIndex.get(document.getElementById('editQuestion').value);
+    const getTarget=q=>document.getElementById('editPlace').value==='question'?q:q.options[Number(document.getElementById('editPlace').value)];
+    let selectedFile=null,previewUrl=null;
+    function clearPreviewUrl(){if(previewUrl){URL.revokeObjectURL(previewUrl);previewUrl=null}}
+    function populateQuestions(){
+      const topic=document.getElementById('editTopic').value;
+      const items=workingBank.filter(q=>q.topic===topic);
+      document.getElementById('editQuestion').innerHTML=items.map(q=>`<option value="${escAttr(q.id)}">${escapeHTML(q.id+' · '+q.question.slice(0,75))}</option>`).join('');
+      fillFromQuestion();
+    }
+    function fillFromQuestion(){
+      clearPreviewUrl();selectedFile=null;document.getElementById('editFile').value='';
+      const q=getQ();if(!q)return;
+      const m=mediaObj(getTarget(q).image)||{};
+      for(const [id,key] of [['editSrc','src'],['editAlt','alt'],['editCaption','caption'],['editCredit','credit'],['editCreditUrl','creditUrl']])document.getElementById(id).value=m[key]||'';
+      renderPreview();
+    }
+    function renderPreview(){
+      const box=document.getElementById('editorPreview');
+      const src=selectedFile?previewUrl:safeImageSrc(document.getElementById('editSrc').value);
+      box.innerHTML=src?`<div class="small muted" style="margin-bottom:6px">Förhandsgranskning</div><img class="quiz-image" alt="Förhandsgranskning" src="${escAttr(src)}"><div class="tiny muted" style="margin-top:6px">${escapeHTML(getQ()?.question||'')}</div>`:'<p class="small muted">Ingen bild vald ännu.</p>';
+    }
+    document.getElementById('editTopic').onchange=populateQuestions;
+    document.getElementById('editQuestion').onchange=fillFromQuestion;
+    document.getElementById('editPlace').onchange=fillFromQuestion;
+    document.getElementById('editSrc').oninput=()=>{selectedFile=null;clearPreviewUrl();renderPreview()};
+    document.getElementById('editFile').onchange=e=>{
+      clearPreviewUrl();selectedFile=e.target.files?.[0]||null;
+      if(!selectedFile){renderPreview();return}
+      if(!/^image\/(?:jpeg|png|webp|gif)$/.test(selectedFile.type) || !/\.(png|jpe?g|webp|gif)$/i.test(selectedFile.name)){
+        alert('Välj JPG, PNG, WebP eller GIF. HEIC behöver först konverteras till JPG.');selectedFile=null;e.target.value='';return;
+      }
+      const suggested='bilder/'+selectedFile.name;
+      if(!safeImageSrc(suggested)){alert('Döp om filen till ett enkelt namn utan specialtecken, till exempel radjur.jpg.');selectedFile=null;e.target.value='';return}
+      previewUrl=URL.createObjectURL(selectedFile);
+      document.getElementById('editSrc').value=suggested;renderPreview();
+    };
+    function saveDraft(remove){
+      const q=getQ();if(!q)return;
+      const src=String(document.getElementById('editSrc').value||'').trim();
+      if(!remove&&!safeImageSrc(src)){alert('Ange en giltig HTTPS-bildlänk eller bilder/filnamn.jpg, .png, .webp eller .gif.');return}
+      const creditUrl=document.getElementById('editCreditUrl').value.trim();
+      if(!remove&&creditUrl&&!safeWebLink(creditUrl)){alert('Källänken måste börja med https://');return}
+      const alt=document.getElementById('editAlt').value.trim();
+      if(!remove&&!alt){alert('Lägg till en kort bildbeskrivning som inte avslöjar svaret.');return}
+      const entry=getTarget(q);
+      if(remove){delete entry.image}else{
+        entry.image={src,alt};
+        for(const [key,id] of [['caption','editCaption'],['credit','editCredit'],['creditUrl','editCreditUrl']]){
+          const val=document.getElementById(id).value.trim();if(val)entry.image[key]=val;
+        }
+      }
+      changedTargets.add(q.id+'-'+document.getElementById('editPlace').value);
+      document.getElementById('editorStatus').textContent=`${changedTargets.size} bildpositioner ändrade i utkastet. Tryck på ”Ladda ned fragor.json” när du är klar.`;
+      if(remove)fillFromQuestion();
+    }
+    document.getElementById('saveImage').onclick=()=>saveDraft(false);
+    document.getElementById('removeImage').onclick=()=>saveDraft(true);
+    document.getElementById('exportImages').onclick=()=>{
+      if(!changedTargets.size){alert('Spara minst en bildändring i utkastet först.');return}
+      downloadJson(workingBank,'fragor.json');
+      document.getElementById('editorStatus').textContent=`Alla ${changedTargets.size} bildändringar är nedladdade i fragor.json. Ladda upp filen till GitHub för att publicera.`;
+    };
+    populateQuestions();
+  }
+  root.addEventListener('error',e=>{
+    const img=e.target;
+    if(!(img instanceof HTMLImageElement)||!(img.classList.contains('quiz-image')||img.classList.contains('option-image')))return;
+    img.hidden=true;
+    const note=document.createElement('span');note.className='small muted';
+    note.textContent='Bilden kunde inte laddas. Kontrollera att länken går direkt till bilden eller att filen finns i bilder/.';
+    img.insertAdjacentElement('afterend',note);
+  },true);
   const logo=document.getElementById('logo');logo.onclick=e=>{e.preventDefault();showHome()};
   if(session && (!Array.isArray(session.ids)||session.ids.some(id=>!INDEX.has(id)))){session=null;saveSession()}
   showHome();
@@ -1405,9 +295,65 @@ window.QUESTIONS = [
     const badge=document.getElementById('timer');if(badge)badge.textContent=timeLabel(remaining());
     if(remaining()<=0)finish(true)
   }},1000);
-  if('serviceWorker' in navigator && location.protocol.startsWith('http'))window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+  // Tvåfilsversion: ingen service worker behövs. JSON hämtas vid varje sidladdning.
 })();
 
-  </script>
+}
+
+  const root = document.getElementById('app');
+  root.innerHTML = '<div class="card" role="status"><h2>Läser in frågebanken …</h2><p class="muted">Laddar fragor.json</p></div>';
+  // Om en tidigare PWA-version körts på denna adress: avregistrera dess gamla cache-worker.
+  if ('serviceWorker' in navigator && location.protocol.startsWith('https')) {
+    navigator.serviceWorker.getRegistrations().then(regs => {
+      regs.forEach(reg => { if (reg.active && /\bsw\.js(?:\?|$)/.test(new URL(reg.active.scriptURL).pathname)) reg.unregister(); });
+    }).catch(() => {});
+  }
+  function validate(data) {
+    if (!Array.isArray(data) || !data.length) throw new Error('Frågebanken måste vara en JSON-lista med minst en fråga.');
+    const used = new Set();
+    for (let i=0; i<data.length; i++) {
+      const q = data[i]; const loc = `Fråga ${i+1}`;
+      if (!q || typeof q.id!=='string' || !q.id.trim() || used.has(q.id)) throw new Error(`${loc}: ID saknas eller är dubblerat.`);
+      used.add(q.id);
+      if (typeof q.topic!=='string' || !q.topic.trim() || typeof q.question!=='string' || !q.question.trim()) throw new Error(`${loc}: ämne eller frågetext saknas.`);
+      if (!Array.isArray(q.options) || q.options.length!==4) throw new Error(`${loc}: exakt fyra svarsalternativ krävs.`);
+      if (!Number.isInteger(q.answer) || q.answer<0 || q.answer>3) throw new Error(`${loc}: answer ska vara 0, 1, 2 eller 3.`);
+      for (const o of q.options) if (!o || typeof o.text!=='string' || !o.text.trim() || typeof o.explanation!=='string' || !o.explanation.trim()) throw new Error(`${loc}: svarstext eller förklaring saknas.`);
+      const checkImage=(m,name)=>{
+        if(m==null)return;
+        if(typeof m==='string'){if(!m.trim())throw new Error(`${loc}: tom bildadress (${name}).`);return;}
+        if(typeof m!=='object'||typeof m.src!=='string'||!m.src.trim())throw new Error(`${loc}: felaktigt bildobjekt (${name}).`);
+        if(typeof m.alt!=='string'||!m.alt.trim())throw new Error(`${loc}: bildbeskrivning saknas (${name}).`);
+      };
+      checkImage(q.image,'fråga');
+      q.options.forEach((o,j)=>checkImage(o.image,'alternativ '+('ABCD'[j])));
+    }
+    return data;
+  }
+  function launch(data) {
+    window.QUESTIONS = validate(data);
+    document.getElementById('topBadge').textContent = `${data.length} övningsfrågor · Beta`;
+    START_JAGARPROVET_APP();
+  }
+  function showError(error) {
+    root.innerHTML = '<div class="card stack"><h2>Kunde inte läsa frågorna</h2><p id="loadError" class="muted"></p><p>På GitHub Pages måste <b>index.html</b> och <b>fragor.json</b> ligga i samma mapp. Om du öppnar HTML-filen direkt från telefonens lagring kan webbläsaren blockera JSON-inläsningen.</p><div class="buttons"><button class="button" type="button" id="retry">Försök igen</button><label class="button alt" for="localJson" style="cursor:pointer">Välj en lokal JSON-fil</label></div><input id="localJson" type="file" accept=".json,application/json" class="hidden"></div>';
+    document.getElementById('loadError').textContent = String(error.message || error);
+    document.getElementById('retry').onclick = load;
+    document.getElementById('localJson').onchange = async e => {
+      try {
+        if (e.target.files && e.target.files[0]) launch(JSON.parse(await e.target.files[0].text()));
+      } catch(err) { showError(err); }
+    };
+  }
+  async function load() {
+    try {
+      const res = await fetch('./fragor.json?uppdaterad=' + Date.now(), {cache:'no-store'});
+      if (!res.ok) throw new Error(`HTTP ${res.status} vid hämtning av fragor.json`);
+      launch(await res.json());
+    } catch(e) { showError(e); }
+  }
+  load();
+
+</script>
 </body>
 </html>
